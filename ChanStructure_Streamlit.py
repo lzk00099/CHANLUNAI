@@ -19,6 +19,16 @@ import yfinance as yf
 
 Kind = Literal["H", "L"]
 
+# Starting presets, not universal trading parameters.  Faster charts need more
+# noise filtering; slower charts need fewer bars to avoid excessive delay.
+AUTO_PRESETS = {
+    "15m": {"radius": 5, "min_bars": 8, "scale": 2, "large_at": 9, "force": .65, "levels": 6},
+    "30m": {"radius": 4, "min_bars": 7, "scale": 2, "large_at": 9, "force": .68, "levels": 7},
+    "1h": {"radius": 3, "min_bars": 6, "scale": 2, "large_at": 9, "force": .72, "levels": 8},
+    "1d": {"radius": 3, "min_bars": 4, "scale": 3, "large_at": 9, "force": .75, "levels": 8},
+    "1wk": {"radius": 2, "min_bars": 3, "scale": 2, "large_at": 9, "force": .80, "levels": 6},
+}
+
 
 @dataclass(frozen=True)
 class Pivot:
@@ -289,21 +299,48 @@ st.set_page_config(page_title="ChanStructure", layout="wide")
 st.title("ChanStructure 多层缠论结构图")
 st.caption("透明规则近似版：中枢、信号和支撑阻力均可在代码中审计；不构成投资建议。")
 
+with st.expander("使用说明与参数策略", expanded=False):
+    st.markdown("""
+**先看级别，再看信号。** 建议先用日线或 1 小时图判断大中枢和方向，再在 30/15 分钟图寻找 3 买、3 卖或低级别确认。图上的 1/2/3 买卖均为结构候选，不是自动交易指令。
+
+| 图形元素 | 含义 |
+| --- | --- |
+| 亮绿 / 红 | 上涨 / 下跌的**大中枢**：默认延伸至少 9 笔 |
+| 绿 / 紫 | 上涨 / 下跌的**小中枢**：尚未达到大中枢笔数 |
+| 红绿折线 | 大、小两个尺度的已确认摆动结构 |
+| 1 买卖 | 价格创新高低且 MACD 力度减弱的背驰候选 |
+| 2 买卖 | 一买卖后的不破前高低回试候选 |
+| 3 买卖 | 离开中枢后的首次中枢外回试候选 |
+
+“自动参数”会按 K 线级别增加或降低噪声过滤：越短周期，分型确认半径和最少成笔 K 线越大，信号越少但更稳定；越长周期则降低这两个值以避免过度滞后。切换到“手动调整”后，可按品种波动率修改。
+
+`力度阈值`越低，一买/一卖越严格；`大中枢最少延伸笔数`只改变大/小中枢颜色分类；`严格三买/卖`要求回试完全不触及中枢边界。任何参数应以样本外回测和明确失效位验证，不能仅凭历史图形判断。""")
+
 with st.sidebar:
     symbol = st.text_input("股票代码", "AAPL").strip().upper()
     interval = st.selectbox("K线周期", ["1d", "1h", "30m", "15m", "1wk"])
     options = {"1d": ["6mo", "1y", "2y", "5y", "10y"], "1h": ["60d", "180d", "730d"],
                "30m": ["30d", "60d"], "15m": ["30d", "60d"], "1wk": ["1y", "2y", "5y", "10y"]}
     period = st.selectbox("取数范围", options[interval])
-    st.subheader("小级别结构")
-    radius = st.slider("分型确认半径", 1, 10, 3)
-    min_bars = st.slider("一笔最少 K 线", 1, 30, 5)
-    st.subheader("大级别嵌套结构")
-    scale = st.slider("大级别倍率", 2, 5, 2)
+    auto_parameters = st.checkbox("按 K 线级别自动设置参数", value=True)
+    preset = AUTO_PRESETS[interval]
+    if auto_parameters:
+        radius = preset["radius"]
+        min_bars = preset["min_bars"]
+        scale = preset["scale"]
+        large_at = preset["large_at"]
+        force_ratio = preset["force"]
+        level_count = preset["levels"]
+        st.info(f"自动参数：半径 {radius}｜最少 {min_bars} 根 K 线成笔｜倍率 {scale}｜大中枢 ≥ {large_at} 笔｜力度 {force_ratio:.2f}")
+    else:
+        st.subheader("手动参数")
+        radius = st.slider("分型确认半径", 1, 10, preset["radius"])
+        min_bars = st.slider("一笔最少 K 线", 1, 30, preset["min_bars"])
+        scale = st.slider("大级别倍率", 2, 5, preset["scale"])
+        large_at = st.slider("大中枢最少延伸笔数", 7, 15, preset["large_at"])
+        force_ratio = st.slider("一买/卖力度阈值", .30, .95, preset["force"], .01)
+        level_count = st.slider("支撑阻力条数", 2, 14, preset["levels"])
     strict_three = st.checkbox("三买/卖严格不触及中枢", value=True)
-    large_at = st.slider("大中枢最少延伸笔数", 7, 15, 9)
-    force_ratio = st.slider("一买/卖力度阈值", .30, .95, .72, .01)
-    level_count = st.slider("支撑阻力条数", 2, 14, 8)
     show_minor = st.checkbox("显示小级别笔线", value=True)
 
 try:
