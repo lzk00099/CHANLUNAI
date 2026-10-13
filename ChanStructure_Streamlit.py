@@ -62,6 +62,19 @@ class Signal:
     confidence: str
 
 
+@dataclass(frozen=True)
+class Segment:
+    """A confirmed, simplified directional segment made from consecutive pens."""
+    start_i: int
+    end_i: int
+    start_t: pd.Timestamp
+    end_t: pd.Timestamp
+    start_price: float
+    end_price: float
+    direction: Literal["up", "down"]
+    strokes: int
+
+
 @st.cache_data(ttl=900, show_spinner=False)
 def load_ohlcv(symbol: str, period: str, interval: str) -> pd.DataFrame:
     data = yf.download(symbol, period=period, interval=interval, auto_adjust=True,
@@ -86,18 +99,59 @@ def add_indicators(data: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
-def raw_fractals(data: pd.DataFrame, radius: int) -> list[Pivot]:
-    """A pivot at bar i becomes known only at i + radius.
-    Tied highs/lows are ignored, avoiding duplicate flat-range pivots.
+def remove_inclusion(data: pd.DataFrame) -> pd.DataFrame:
+    """Merge containing K-bars before identifying fractals.
+
+    In an upward relation the merged bar keeps the higher high and higher low;
+    in a downward relation it keeps the lower high and lower low. Each merged
+    record retains the original end-bar index so plots and confirmations still
+    align with the raw price chart.
     """
-    high, low = data.High.to_numpy(), data.Low.to_numpy()
+    bars: list[dict[str, float | int | pd.Timestamp]] = []
+    for raw_i, (stamp, row) in enumerate(data.iterrows()):
+        current = {"start_i": raw_i, "end_i": raw_i, "t": stamp,
+                   "open": float(row.Open), "high": float(row.High),
+                   "low": float(row.Low), "close": float(row.Close)}
+        if not bars:
+            bars.append(current)
+            continue
+        last = bars[-1]
+        contained = ((current["high"] <= last["high"] and current["low"] >= last["low"])
+                     or (current["high"] >= last["high"] and current["low"] <= last["low"]))
+        if not contained:
+            bars.append(current)
+            continue
+        if len(bars) >= 2:
+            prior = bars[-2]
+            rising = last["high"] >= prior["high"] and last["low"] >= prior["low"]
+            falling = last["high"] <= prior["high"] and last["low"] <= prior["low"]
+            up = rising if rising != falling else last["close"] >= prior["close"]
+        else:
+            up = last["close"] >= last["open"]
+        merged = dict(last)
+        merged["end_i"], merged["t"], merged["close"] = current["end_i"], current["t"], current["close"]
+        if up:
+            merged["high"], merged["low"] = max(last["high"], current["high"]), max(last["low"], current["low"])
+        else:
+            merged["high"], merged["low"] = min(last["high"], current["high"]), min(last["low"], current["low"])
+        bars[-1] = merged
+    return pd.DataFrame(bars)
+
+
+def raw_fractals(data: pd.DataFrame, radius: int) -> list[Pivot]:
+    """Strict top/bottom fractals calculated after containment processing."""
+    bars = remove_inclusion(data)
     out: list[Pivot] = []
-    for i in range(radius, len(data) - radius):
-        wh, wl = high[i-radius:i+radius+1], low[i-radius:i+radius+1]
-        if high[i] == wh.max() and (wh == high[i]).sum() == 1:
-            out.append(Pivot(i, data.index[i], float(high[i]), "H", i + radius))
-        if low[i] == wl.min() and (wl == low[i]).sum() == 1:
-            out.append(Pivot(i, data.index[i], float(low[i]), "L", i + radius))
+    for i in range(radius, len(bars) - radius):
+        before, current, after = bars.iloc[i-radius:i], bars.iloc[i], bars.iloc[i+1:i+radius+1]
+        is_top = current.high > before.high.max() and current.high > after.high.max() and current.low > before.low.max() and current.low > after.low.max()
+        is_bottom = current.low < before.low.min() and current.low < after.low.min() and current.high < before.high.min() and current.high < after.high.min()
+        raw_i = int(current.end_i)
+        confirmed_i = int(bars.iloc[i+radius].end_i)
+        if is_top:
+            out.append(Pivot(raw_i, data.index[raw_i], float(current.high), "H", confirmed_i))
+        if is_bottom:
+            out.append(Pivot(raw_i, data.index[raw_i], float(current.low), "L", confirmed_i))
     return sorted(out, key=lambda x: (x.i, x.kind))
 
 
@@ -119,6 +173,40 @@ def build_pivots(data: pd.DataFrame, radius: int, min_bars: int) -> list[Pivot]:
         elif p.i - prev.i >= min_bars:
             kept.append(p)
     return kept
+
+
+def build_segments(pivots: list[Pivot]) -> list[Segment]:
+    """Build conservative directional segments from a sequence of pens.
+
+    A rising segment needs successive higher low / higher high structure; a
+    falling segment needs lower high / lower low. It is intentionally labelled
+    'simplified segment' because it does not yet implement every feature-sequence
+    exception used by strict Chan line-segment schools.
+    """
+    out: list[Segment] = []
+    start = 0
+    while start + 3 < len(pivots):
+        a, b, c, d = pivots[start:start+4]
+        up = a.kind == "L" and b.kind == "H" and c.kind == "L" and d.kind == "H" and c.price > a.price and d.price > b.price
+        down = a.kind == "H" and b.kind == "L" and c.kind == "H" and d.kind == "L" and c.price < a.price and d.price < b.price
+        if not (up or down):
+            start += 1
+            continue
+        direction: Literal["up", "down"] = "up" if up else "down"
+        end = start + 3
+        while end + 2 < len(pivots):
+            retrace, extension = pivots[end+1], pivots[end+2]
+            if direction == "up":
+                continues = retrace.kind == "L" and extension.kind == "H" and retrace.price > pivots[end-1].price and extension.price > pivots[end].price
+            else:
+                continues = retrace.kind == "H" and extension.kind == "L" and retrace.price < pivots[end-1].price and extension.price < pivots[end].price
+            if not continues:
+                break
+            end += 2
+        first, last = pivots[start], pivots[end]
+        out.append(Segment(first.i, last.i, first.t, last.t, first.price, last.price, direction, end-start))
+        start = end
+    return out
 
 
 def stroke_range(a: Pivot, b: Pivot) -> tuple[float, float]:
@@ -255,7 +343,7 @@ def unique_levels(data: pd.DataFrame, centers: list[Center], pivots: list[Pivot]
     return sorted(result, key=lambda z: z[0])
 
 
-def plot_chart(data: pd.DataFrame, minor: list[Pivot], major: list[Pivot], centers: list[Center], signals: list[Signal], levels: list[tuple[float, str]], show_minor: bool, large_at: int) -> go.Figure:
+def plot_chart(data: pd.DataFrame, minor: list[Pivot], major: list[Pivot], segments: list[Segment], centers: list[Center], signals: list[Signal], levels: list[tuple[float, str]], show_minor: bool, show_segments: bool, large_at: int) -> go.Figure:
     fig = go.Figure(go.Candlestick(x=data.index, open=data.Open, high=data.High,
                                    low=data.Low, close=data.Close, name="价格"))
     # Nested center rectangles, major first so minor zones remain visible on top.
@@ -277,6 +365,12 @@ def plot_chart(data: pd.DataFrame, minor: list[Pivot], major: list[Pivot], cente
         for a, b in zip(pivs, pivs[1:]):
             fig.add_shape(type="line", x0=a.t, y0=a.price, x1=b.t, y1=b.price,
                           line={"color": "#00d68f" if b.price > a.price else "#ff4d5a", "width": width})
+    if show_segments:
+        for s in segments:
+            fig.add_shape(type="line", x0=s.start_t, y0=s.start_price, x1=s.end_t, y1=s.end_price,
+                          line={"color": "#F1C40F", "width": 3, "dash": "dash"})
+            fig.add_annotation(x=s.end_t, y=s.end_price, text=f"简化线段 {s.strokes}笔",
+                               showarrow=False, font={"color": "#F1C40F", "size": 9}, yshift=12)
     # Candidate labels are deliberately smaller and say '候选' in the hover text.
     for side, color, symbol in (("buy", "#00C98D", "triangle-up"), ("sell", "#FF5A5F", "triangle-down")):
         s = [x for x in signals if x.side == side]
@@ -308,6 +402,7 @@ with st.expander("使用说明与参数策略", expanded=False):
 | 亮绿 / 红 | 上涨 / 下跌的**大中枢**：默认延伸至少 9 笔 |
 | 绿 / 紫 | 上涨 / 下跌的**小中枢**：尚未达到大中枢笔数 |
 | 红绿折线 | 大、小两个尺度的已确认摆动结构 |
+| 黄虚线 | 已确认的简化线段；未覆盖全部特征序列例外 |
 | 1 买卖 | 价格创新高低且 MACD 力度减弱的背驰候选 |
 | 2 买卖 | 一买卖后的不破前高低回试候选 |
 | 3 买卖 | 离开中枢后的首次中枢外回试候选 |
@@ -342,11 +437,13 @@ with st.sidebar:
         level_count = st.slider("支撑阻力条数", 2, 14, preset["levels"])
     strict_three = st.checkbox("三买/卖严格不触及中枢", value=True)
     show_minor = st.checkbox("显示小级别笔线", value=True)
+    show_segments = st.checkbox("显示简化线段（黄虚线）", value=True)
 
 try:
     data = add_indicators(load_ohlcv(symbol, period, interval))
     minor = build_pivots(data, radius, min_bars)
     major = build_pivots(data, radius * scale, min_bars * scale)
+    segments = build_segments(minor)
     minor_centers = build_centers(minor, "minor")
     major_centers = build_centers(major, "major")
     centers = minor_centers + major_centers
@@ -354,11 +451,11 @@ try:
                + third_signals(minor, minor_centers, strict_three)
                + third_signals(major, major_centers, strict_three))
     levels = unique_levels(data, centers, minor + major, level_count)
-    st.plotly_chart(plot_chart(data, minor, major, centers, signals, levels, show_minor, large_at), use_container_width=True)
+    st.plotly_chart(plot_chart(data, minor, major, segments, centers, signals, levels, show_minor, show_segments, large_at), use_container_width=True)
 
     left, right = st.columns(2)
     with left:
-        st.metric("已确认小级别端点", len(minor))
+        st.metric("已确认小级别端点 / 简化线段", f"{len(minor)} / {len(segments)}")
         st.dataframe(pd.DataFrame([{"层级": "大" if x.strokes >= large_at else "小", "方向": "上" if x.direction == "up" else "下", "开始": data.index[x.start_i], "结束": data.index[x.end_i], "ZD": round(x.low, 2), "ZG": round(x.high, 2), "笔数": x.strokes} for x in sorted(centers, key=lambda c: c.end_i, reverse=True)]), hide_index=True, use_container_width=True)
     with right:
         st.metric("1/2/3 买卖候选", len(signals))
