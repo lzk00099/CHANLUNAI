@@ -509,7 +509,13 @@ def plot_chart(data: pd.DataFrame, minor: list[Pivot], major: list[Pivot], segme
             fig.add_trace(go.Scatter(x=cd.index[point], y=(diff_line[point] * multiplier), mode="markers+text", text=[label] * int(point.sum()), textposition=position, name=f"CD+RSI {label}", marker={"color": color, "size": 15, "symbol": marker, "line": {"color": "white", "width": 1}}), row=3, col=1)
     fig.add_hline(y=0, line={"color": "#8c8c8c", "width": 1}, row=3, col=1)
     fig.update_yaxes(title_text="CD+RSI", row=3, col=1)
-    fig.update_xaxes(showgrid=False, showline=False, zeroline=False)
+    fig.update_xaxes(
+        showgrid=False,
+        showline=False,
+        zeroline=False,
+        type="category",          # 关键：把非交易日的空白间隙去掉，紧凑排列
+        nticks=10,                # 控制最多显示多少个日期标签，避免挤在一起
+    )
     fig.update_yaxes(gridcolor="#243244", gridwidth=1, zerolinecolor="#62738a", tickfont={"color": "#b9c5d8"}, title_font={"color": "#b9c5d8"})
     fig.update_layout(
         template="plotly_dark", height=940, xaxis_rangeslider_visible=False,
