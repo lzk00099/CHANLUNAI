@@ -139,9 +139,11 @@ def load_quote_symbols(source: str) -> list[str]:
 
 
 def scan_quote_list(symbols: list[str], interval: str, period: str, radius: int, min_bars: int, scale: int, force_ratio: float, strict_three: bool, lookback_bars: int, progress_bar) -> tuple[pd.DataFrame, list[str]]:
-    """Scan the thinkorswim exported list for a recent main-chart buy plus a
-    Sea Bottom Moon or CD+RSI bottom event. Downloading is batched to avoid one
-    network request per ticker.
+    """Scan for any recent primary or secondary signal.
+
+    A main-chart buy plus either secondary confirmation is ranked first, then
+    the remaining names by the number of independent signal categories.
+    Downloading is batched to avoid one request per ticker.
     """
     matches: list[dict[str, object]] = []
     failures: list[str] = []
@@ -164,19 +166,23 @@ def scan_quote_list(symbols: list[str], interval: str, period: str, radius: int,
                 if len(raw) < max(90, radius * scale * 8):
                     continue
                 buys = recent_primary_buys(raw, radius, min_bars, scale, force_ratio, strict_three, lookback_bars)
-                if not buys:
-                    continue
                 sea = sea_bottom_moon(raw, interval)
                 cd = cd_rsi_signals(raw)
                 recent_sea = sea.tier.iloc[-lookback_bars:].dropna().tolist()
                 cd_bottom = bool(cd.bottom.iloc[-lookback_bars:].any())
-                if recent_sea or cd_bottom:
+                has_main, has_sea = bool(buys), bool(recent_sea)
+                signal_count = int(has_main) + int(has_sea) + int(cd_bottom)
+                if signal_count:
+                    resonance = has_main and (has_sea or cd_bottom)
                     matches.append({
                         "代码": symbol,
                         "最新价": round(float(raw.Close.iloc[-1]), 2),
                         "主图买点": "、".join(buys),
                         "海底捞月": "、".join(dict.fromkeys(recent_sea)) if recent_sea else "—",
                         "CD+RSI 抄底": "是" if cd_bottom else "—",
+                        "主副共振": "是" if resonance else "—",
+                        "信号数": signal_count,
+                        "_排序优先级": 0 if resonance else 1,
                     })
             except Exception:
                 failures.append(symbol)
@@ -569,7 +575,7 @@ with st.sidebar:
     st.caption("扫描清单：GitHub 上的 LZK-Quote.csv（每小时自动刷新一次）")
     st.link_button("打开 GitHub Quote List", "https://github.com/lzk00099/CHANLUNAI/blob/main/LZK-Quote.csv", use_container_width=True)
     scan_lookback = st.slider("扫描最近 K 线数", 1, 15, 3)
-    run_scan = st.button("扫描主图买点 + 副图抄底", use_container_width=True)
+    run_scan = st.button("扫描主图与副图信号", use_container_width=True)
 
 try:
     data = add_indicators(load_ohlcv(symbol, period, interval))
@@ -603,10 +609,15 @@ try:
                 progress.empty()
             st.subheader(f"扫描结果：{len(matches)} 个候选")
             if matches.empty:
-                st.info("没有标的同时满足近期主图 1/2/3 买与海底捞月或 CD+RSI 抄底条件。")
+                st.info("最近窗口内没有出现主图买点、海底捞月或 CD+RSI 抄底信号。")
             else:
-                st.dataframe(matches.sort_values(["主图买点", "代码"]), hide_index=True, use_container_width=True)
-                st.download_button("下载扫描结果 CSV", matches.to_csv(index=False).encode("utf-8-sig"), "ChanStructure_scan.csv", "text/csv")
+                # Main-chart + secondary-panel resonance always appears first;
+                # remaining rows are ranked by the number of signal families.
+                ordered = matches.sort_values(["_排序优先级", "信号数", "代码"], ascending=[True, False, True])
+                shown = ordered.drop(columns=["_排序优先级"])
+                st.caption("排序：主图买点 + 任一副图抄底的“主副共振”优先，其后按信号数排列。")
+                st.dataframe(shown, hide_index=True, use_container_width=True)
+                st.download_button("下载扫描结果 CSV", shown.to_csv(index=False).encode("utf-8-sig"), "ChanStructure_scan.csv", "text/csv")
             if failures:
                 st.caption(f"{len(failures)} 个代码未能取得足够数据，已跳过。")
         except Exception as exc:
