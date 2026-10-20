@@ -6,7 +6,9 @@ thinkScript Buy/Sell logic.  Neither measures actual institutional ownership.
 """
 from __future__ import annotations
 
+from io import StringIO
 from pathlib import Path
+from urllib.request import Request, urlopen
 
 import numpy as np
 import pandas as pd
@@ -31,36 +33,50 @@ def _cooldown(raw: pd.Series, bars: int) -> pd.Series:
     return pd.Series(result, index=raw.index)
 
 
-def sea_bottom_moon(data: pd.DataFrame, min_bars_between: int = 8) -> pd.DataFrame:
-    """Four-tier bottom oscillator.
+SEA_PRESETS = {
+    # The shorter the bar, the quicker the oscillator and the less extreme a
+    # pullback may be before it is worth flagging.  This prevents intraday
+    # charts from waiting for a daily-chart-sized capitulation.
+    "15m": {"rsi": 10, "stoch": 14, "tide": 2, "signal": 4, "small": 38, "medium": 30, "large": 23, "super": 16, "medium_low": 20, "large_low": 34, "super_low": 55, "volume": 1.10, "cooldown": 5},
+    "30m": {"rsi": 11, "stoch": 16, "tide": 3, "signal": 4, "small": 35, "medium": 28, "large": 21, "super": 15, "medium_low": 24, "large_low": 40, "super_low": 65, "volume": 1.15, "cooldown": 6},
+    "1h":  {"rsi": 12, "stoch": 18, "tide": 3, "signal": 5, "small": 32, "medium": 25, "large": 18, "super": 13, "medium_low": 28, "large_low": 46, "super_low": 80, "volume": 1.20, "cooldown": 7},
+    "1d":  {"rsi": 14, "stoch": 21, "tide": 3, "signal": 5, "small": 29, "medium": 22, "large": 16, "super": 11, "medium_low": 30, "large_low": 50, "super_low": 110, "volume": 1.25, "cooldown": 8},
+    "1wk": {"rsi": 14, "stoch": 14, "tide": 3, "signal": 5, "small": 33, "medium": 26, "large": 19, "super": 13, "medium_low": 10, "large_low": 18, "super_low": 34, "volume": 1.15, "cooldown": 4},
+}
 
-    Small / medium / large / superlarge use the same RSI + stochastic tide.
-    Higher tiers require a deeper oscillator extreme plus longer price-low context.
-    The tiers are an auditable extension, not a claim to reproduce a proprietary
-    'Sea Bottom Moon' product.
+
+def sea_bottom_moon(data: pd.DataFrame, interval: str = "1d", min_bars_between: int | None = None) -> pd.DataFrame:
+    """Adaptive four-level RSI/stochastic bottom oscillator.
+
+    It is deliberately more responsive on intraday charts and more selective on
+    daily/weekly charts.  A signal marks a potential exhausted pullback, not a
+    prediction that the final price low is already in place.
     """
+    p = SEA_PRESETS.get(interval, SEA_PRESETS["1d"])
+    cooldown = p["cooldown"] if min_bars_between is None else min_bars_between
     close, high, low, volume = data.Close, data.High, data.Low, data.Volume.fillna(0)
-    rsi = _wilder_rsi(close, 14)
-    lo, hi = low.rolling(21, min_periods=1).min(), high.rolling(21, min_periods=1).max()
+    rsi = _wilder_rsi(close, p["rsi"])
+    lo, hi = low.rolling(p["stoch"], min_periods=1).min(), high.rolling(p["stoch"], min_periods=1).max()
     stoch = (100 * (close - lo) / (hi - lo).replace(0, np.nan)).fillna(50)
-    tide = ((rsi + stoch) / 2).ewm(span=3, adjust=False).mean()
-    signal = tide.ewm(span=5, adjust=False).mean()
+    tide = ((rsi + stoch) / 2).ewm(span=p["tide"], adjust=False).mean()
+    signal = tide.ewm(span=p["signal"], adjust=False).mean()
     cross_up = (tide > signal) & (tide.shift(1) <= signal.shift(1))
     turn_up = (tide > tide.shift(1)) & (tide.shift(1) <= tide.shift(1).rolling(3, min_periods=1).min())
     turning = cross_up | turn_up
     recent_low = lambda n: low <= low.shift(1).rolling(n, min_periods=max(2, n // 4)).min()
-    volume_spike = volume > volume.rolling(20, min_periods=5).mean() * 1.5
+    volume_spike = volume > volume.rolling(20, min_periods=5).mean() * p["volume"]
 
-    small_raw = turning & (tide.rolling(5, min_periods=1).min() < 20) & (tide < 35)
-    medium_raw = turning & (tide.rolling(5, min_periods=1).min() < 16) & recent_low(34)
-    large_raw = turning & ((tide.rolling(5, min_periods=1).min() < 12) | ((rsi < 17) & (stoch < 17))) & recent_low(55)
-    super_raw = turning & (tide.rolling(7, min_periods=1).min() < 8) & (rsi < 13) & (stoch < 13) & recent_low(144) & volume_spike
+    tide_low = tide.rolling(5, min_periods=1).min()
+    small_raw = turning & (tide_low < p["small"]) & (tide < p["small"] + 12)
+    medium_raw = turning & (tide_low < p["medium"]) & recent_low(p["medium_low"])
+    large_raw = turning & ((tide_low < p["large"]) | ((rsi < p["large"] + 5) & (stoch < p["large"] + 5))) & recent_low(p["large_low"])
+    super_raw = turning & (tide_low < p["super"]) & (rsi < p["super"] + 5) & (stoch < p["super"] + 5) & recent_low(p["super_low"]) & volume_spike
 
     # One event per bar, highest qualifying tier wins; every tier has its own cooldown.
-    super_event = _cooldown(super_raw, min_bars_between)
-    large_event = _cooldown(large_raw & ~super_raw, min_bars_between)
-    medium_event = _cooldown(medium_raw & ~large_raw & ~super_raw, min_bars_between)
-    small_event = _cooldown(small_raw & ~medium_raw & ~large_raw & ~super_raw, min_bars_between)
+    super_event = _cooldown(super_raw, cooldown)
+    large_event = _cooldown(large_raw & ~super_raw, cooldown)
+    medium_event = _cooldown(medium_raw & ~large_raw & ~super_raw, cooldown)
+    small_event = _cooldown(small_raw & ~medium_raw & ~large_raw & ~super_raw, cooldown)
     tier = pd.Series(pd.NA, index=data.index, dtype="object")
     tier.loc[small_event] = "小底"
     tier.loc[medium_event] = "中底"
@@ -125,16 +141,28 @@ def cd_rsi_signals(data: pd.DataFrame, require_rsi_divergence: bool = True, rsi_
     }, index=data.index)
 
 
+def _quote_source_text(csv_path: str | Path) -> str:
+    """Read a local quote list or a GitHub/raw HTTPS quote list."""
+    source = str(csv_path).strip()
+    if source.startswith("https://github.com/") and "/blob/" in source:
+        source = source.replace("https://github.com/", "https://raw.githubusercontent.com/").replace("/blob/", "/")
+    if source.startswith(("https://", "http://")):
+        request = Request(source, headers={"User-Agent": "ChanStructure/1.0"})
+        with urlopen(request, timeout=20) as response:
+            return response.read().decode("utf-8-sig", errors="replace")
+    return Path(source).read_text(encoding="utf-8-sig", errors="replace")
+
+
 def quote_symbols(csv_path: str | Path) -> list[str]:
-    """Read the exported thinkorswim quote-list CSV; its first two rows are metadata."""
+    """Read a thinkorswim quote-list CSV from local storage or an HTTPS URL."""
+    text = _quote_source_text(csv_path)
     header_row = None
-    with open(csv_path, encoding="utf-8-sig", errors="replace") as source:
-        for number, line in enumerate(source):
-            if line.strip().startswith("Symbol,"):
-                header_row = number
-                break
+    for number, line in enumerate(text.splitlines()):
+        if line.strip().startswith("Symbol,"):
+            header_row = number
+            break
     if header_row is None:
         raise ValueError("CSV 中没有找到 Symbol 表头。")
-    frame = pd.read_csv(csv_path, skiprows=header_row, usecols=["Symbol"], dtype=str)
+    frame = pd.read_csv(StringIO(text), skiprows=header_row, usecols=["Symbol"], dtype=str)
     symbols = frame.Symbol.dropna().str.strip().str.upper()
     return list(dict.fromkeys(symbols[symbols.str.fullmatch(r"[A-Z0-9.\-]+")].tolist()))

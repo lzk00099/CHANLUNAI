@@ -9,7 +9,6 @@ Run: streamlit run ChanStructure_Streamlit.py
 from __future__ import annotations
 
 from dataclasses import dataclass
-from pathlib import Path
 from typing import Literal
 
 import numpy as np
@@ -33,7 +32,9 @@ AUTO_PRESETS = {
     "1wk": {"radius": 2, "min_bars": 3, "scale": 2, "large_at": 9, "force": .80, "levels": 6},
 }
 
-DEFAULT_QUOTE_CSV = r"C:\Users\luzhe\Downloads\缠论AI\LZK-Quote.csv"
+# Raw URL is intentional: GitHub's /blob/ page is HTML, while this endpoint is
+# the CSV itself and is suitable for unattended Streamlit Cloud scans.
+DEFAULT_QUOTE_CSV = "https://raw.githubusercontent.com/lzk00099/CHANLUNAI/main/LZK-Quote.csv"
 
 
 @dataclass(frozen=True)
@@ -131,12 +132,17 @@ def recent_primary_buys(data: pd.DataFrame, radius: int, min_bars: int, scale: i
     return sorted({x.text for x in signals if x.side == "buy" and x.i >= len(d) - lookback_bars})
 
 
-def scan_quote_list(csv_path: str, interval: str, period: str, radius: int, min_bars: int, scale: int, force_ratio: float, strict_three: bool, lookback_bars: int, progress_bar) -> tuple[pd.DataFrame, list[str]]:
+@st.cache_data(ttl=3600, show_spinner=False)
+def load_quote_symbols(source: str) -> list[str]:
+    """Keep the GitHub list cached for an hour rather than rereading it per scan."""
+    return quote_symbols(source)
+
+
+def scan_quote_list(symbols: list[str], interval: str, period: str, radius: int, min_bars: int, scale: int, force_ratio: float, strict_three: bool, lookback_bars: int, progress_bar) -> tuple[pd.DataFrame, list[str]]:
     """Scan the thinkorswim exported list for a recent main-chart buy plus a
     Sea Bottom Moon or CD+RSI bottom event. Downloading is batched to avoid one
     network request per ticker.
     """
-    symbols = quote_symbols(csv_path)
     matches: list[dict[str, object]] = []
     failures: list[str] = []
     batches = [symbols[i:i+80] for i in range(0, len(symbols), 80)]
@@ -160,7 +166,7 @@ def scan_quote_list(csv_path: str, interval: str, period: str, radius: int, min_
                 buys = recent_primary_buys(raw, radius, min_bars, scale, force_ratio, strict_three, lookback_bars)
                 if not buys:
                     continue
-                sea = sea_bottom_moon(raw)
+                sea = sea_bottom_moon(raw, interval)
                 cd = cd_rsi_signals(raw)
                 recent_sea = sea.tier.iloc[-lookback_bars:].dropna().tolist()
                 cd_bottom = bool(cd.bottom.iloc[-lookback_bars:].any())
@@ -423,10 +429,13 @@ def unique_levels(data: pd.DataFrame, centers: list[Center], pivots: list[Pivot]
 
 
 def plot_chart(data: pd.DataFrame, minor: list[Pivot], major: list[Pivot], segments: list[Segment], centers: list[Center], signals: list[Signal], levels: list[tuple[float, str]], sea: pd.DataFrame, cd: pd.DataFrame, show_minor: bool, show_segments: bool, large_at: int) -> go.Figure:
-    fig = make_subplots(rows=3, cols=1, shared_xaxes=True, vertical_spacing=.025,
-                        row_heights=[.60, .20, .20], subplot_titles=("主图：缠论结构", "海底捞月（四级近似）", "CD+RSI Buy/Sell"))
+    # Empty subplot titles intentionally avoid a large title band between panels.
+    fig = make_subplots(rows=3, cols=1, shared_xaxes=True, vertical_spacing=.012,
+                        row_heights=[.64, .18, .18], subplot_titles=("", "", ""))
     fig.add_trace(go.Candlestick(x=data.index, open=data.Open, high=data.High,
-                                 low=data.Low, close=data.Close, name="价格"), row=1, col=1)
+                                 low=data.Low, close=data.Close, name="价格",
+                                 increasing_line_color="#33d69f", increasing_fillcolor="#33d69f",
+                                 decreasing_line_color="#ff5364", decreasing_fillcolor="#ff5364"), row=1, col=1)
     # Nested center rectangles, major first so minor zones remain visible on top.
     for c in sorted(centers, key=lambda x: 0 if x.tier == "major" else 1):
         fill, edge = zone_fill(c, large_at)
@@ -494,9 +503,13 @@ def plot_chart(data: pd.DataFrame, minor: list[Pivot], major: list[Pivot], segme
             fig.add_trace(go.Scatter(x=cd.index[point], y=(diff_line[point] * multiplier), mode="markers+text", text=[label] * int(point.sum()), textposition=position, name=f"CD+RSI {label}", marker={"color": color, "size": 15, "symbol": marker, "line": {"color": "white", "width": 1}}), row=3, col=1)
     fig.add_hline(y=0, line={"color": "#8c8c8c", "width": 1}, row=3, col=1)
     fig.update_yaxes(title_text="CD+RSI", row=3, col=1)
-    fig.update_layout(template="plotly_dark", height=1120, xaxis_rangeslider_visible=False,
-        title="ChanStructure：结构 + 海底捞月 + CD/RSI",
-        margin={"l": 15, "r": 140, "t": 45, "b": 20}, legend={"orientation": "h"})
+    fig.update_xaxes(showgrid=False, showline=False, zeroline=False)
+    fig.update_yaxes(gridcolor="#243244", gridwidth=1, zerolinecolor="#62738a", tickfont={"color": "#b9c5d8"}, title_font={"color": "#b9c5d8"})
+    fig.update_layout(
+        template="plotly_dark", height=940, xaxis_rangeslider_visible=False,
+        paper_bgcolor="#0e131c", plot_bgcolor="#0e131c", font={"color": "#d9e2ee"},
+        margin={"l": 12, "r": 135, "t": 12, "b": 12}, showlegend=False,
+    )
     return fig
 
 
@@ -517,7 +530,7 @@ with st.expander("使用说明与参数策略", expanded=False):
 | 1 买卖 | 价格创新高低且 MACD 力度减弱的背驰候选 |
 | 2 买卖 | 一买卖后的不破前高低回试候选 |
 | 3 买卖 | 离开中枢后的首次中枢外回试候选 |
-| 海底捞月 | RSI + 随机指标的四级底部近似：小/中/大/超大底 |
+| 海底捞月 | 按当前 K 线级别自适应的 RSI + 随机指标底部提示：小/中/大/超大底 |
 | CD+RSI | 已移植的 Thinkorswim CD/MACD 背离逻辑，配合 RSI 背离确认 |
 
 “自动参数”会按 K 线级别增加或降低噪声过滤：越短周期，分型确认半径和最少成笔 K 线越大，信号越少但更稳定；越长周期则降低这两个值以避免过度滞后。切换到“手动调整”后，可按品种波动率修改。
@@ -553,7 +566,8 @@ with st.sidebar:
     show_segments = st.checkbox("显示简化线段（黄虚线）", value=True)
     st.divider()
     st.subheader("Quote List 扫描")
-    quote_csv = st.text_input("LZK-Quote.csv 路径", DEFAULT_QUOTE_CSV)
+    st.caption("扫描清单：GitHub 上的 LZK-Quote.csv（每小时自动刷新一次）")
+    st.link_button("打开 GitHub Quote List", "https://github.com/lzk00099/CHANLUNAI/blob/main/LZK-Quote.csv", use_container_width=True)
     scan_lookback = st.slider("扫描最近 K 线数", 1, 15, 3)
     run_scan = st.button("扫描主图买点 + 副图抄底", use_container_width=True)
 
@@ -569,9 +583,9 @@ try:
                + third_signals(minor, minor_centers, strict_three)
                + third_signals(major, major_centers, strict_three))
     levels = unique_levels(data, centers, minor + major, level_count)
-    sea = sea_bottom_moon(data)
+    sea = sea_bottom_moon(data, interval)
     cd = cd_rsi_signals(data)
-    st.plotly_chart(plot_chart(data, minor, major, segments, centers, signals, levels, sea, cd, show_minor, show_segments, large_at), use_container_width=True)
+    st.plotly_chart(plot_chart(data, minor, major, segments, centers, signals, levels, sea, cd, show_minor, show_segments, large_at), use_container_width=True, theme=None)
 
     left, right = st.columns(2)
     with left:
@@ -581,26 +595,22 @@ try:
         st.metric("1/2/3 买卖候选", len(signals))
         st.dataframe(pd.DataFrame([{"时间": x.t, "信号": x.text, "价格": round(x.price, 2), "说明": x.confidence} for x in sorted(signals, key=lambda x: x.i, reverse=True)]), hide_index=True, use_container_width=True)
     if run_scan:
-        scan_path = Path(quote_csv)
-        if not scan_path.is_file():
-            st.error("找不到 LZK-Quote.csv；请确认路径或将文件放回下载目录。")
-        else:
-            try:
-                universe = quote_symbols(scan_path)
-                with st.spinner(f"正在扫描 {len(universe)} 个代码；数据源限制下可能需要数分钟。"):
-                    progress = st.progress(0, text="准备扫描")
-                    matches, failures = scan_quote_list(str(scan_path), interval, period, radius, min_bars, scale, force_ratio, strict_three, scan_lookback, progress)
-                    progress.empty()
-                st.subheader(f"扫描结果：{len(matches)} 个候选")
-                if matches.empty:
-                    st.info("没有标的同时满足近期主图 1/2/3 买与海底捞月或 CD+RSI 抄底条件。")
-                else:
-                    st.dataframe(matches.sort_values(["主图买点", "代码"]), hide_index=True, use_container_width=True)
-                    st.download_button("下载扫描结果 CSV", matches.to_csv(index=False).encode("utf-8-sig"), "ChanStructure_scan.csv", "text/csv")
-                if failures:
-                    st.caption(f"{len(failures)} 个代码未能取得足够数据，已跳过。")
-            except Exception as exc:
-                st.error(f"扫描失败：{exc}")
+        try:
+            universe = load_quote_symbols(DEFAULT_QUOTE_CSV)
+            with st.spinner(f"正在扫描 GitHub Quote List 的 {len(universe)} 个代码；数据源限制下可能需要数分钟。"):
+                progress = st.progress(0, text="准备扫描")
+                matches, failures = scan_quote_list(universe, interval, period, radius, min_bars, scale, force_ratio, strict_three, scan_lookback, progress)
+                progress.empty()
+            st.subheader(f"扫描结果：{len(matches)} 个候选")
+            if matches.empty:
+                st.info("没有标的同时满足近期主图 1/2/3 买与海底捞月或 CD+RSI 抄底条件。")
+            else:
+                st.dataframe(matches.sort_values(["主图买点", "代码"]), hide_index=True, use_container_width=True)
+                st.download_button("下载扫描结果 CSV", matches.to_csv(index=False).encode("utf-8-sig"), "ChanStructure_scan.csv", "text/csv")
+            if failures:
+                st.caption(f"{len(failures)} 个代码未能取得足够数据，已跳过。")
+        except Exception as exc:
+            st.error(f"扫描失败：{exc}")
 except Exception as exc:
     st.error(f"无法载入或计算 {symbol}：{exc}")
 
