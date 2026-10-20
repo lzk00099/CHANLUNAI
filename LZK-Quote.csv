@@ -1,0 +1,2674 @@
+﻿Quote on 10/20/26 02:46:25
+
+1 default
+Symbol,Description,Quote Trend,%Change,Last,Bid,BS,Ask,AS,Volume,Open,High,Low,52High,52Low
+AAOI,APPLIED OPTOELECTRON,"instrument=AAOI
+trend=[GREEN, BRIGHT_GREEN, BRIGHT_RED, RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, RED, GREEN, GREEN]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-2.37%,76.35,76.39,2,76.49,146,"261,014",0,0,0,233.67,18.50
+AAOX,TRADR 2X LONG AAOI DAILY ETF,"instrument=AAOX
+trend=[null, GREEN, GREEN, RED_OVER_GREEN, GREEN, RED, GREEN, RED, BRIGHT_GREEN, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-4.65%,4.92,4.92,19,4.93,"2,261","1,001,852",0,0,0,103.00,4.81
+AAPL,APPLE INC,"instrument=AAPL
+trend=[null, GREEN, RED, GREEN, RED_OVER_GREEN, GREEN, RED, GREEN, RED, GREEN]
+headPointer=9
+separatorPointer=9
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.15%,343.44,343.35,77,343.53,40,"44,577",0,0,0,348.1499,243.42
+AAPU,Direxion Daily AAPL Bull 2X Shares,"instrument=AAPU
+trend=[null, GREEN, RED, RED, GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.02%,46.60,46.51,500,46.79,220,"4,916",0,0,0,48.8901,26.20
+ABAT,AMERICAN BATTERY TEC,"instrument=ABAT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.38%,1.47,1.46,226,1.48,"2,907","10,181",0,0,0,7.04,1.42
+ABNB,AIRBNB INC Class A,"instrument=ABNB
+trend=[null, BRIGHT_GREEN, BRIGHT_GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.06%,175.36,175.47,3,175.90,128,639,0,0,0,193.452878,110.81
+ABSI,ABSCI CORP,"instrument=ABSI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.12%,8.55,8.50,100,8.57,40,399,0,0,0,12.055,2.24
+ACAD,ACADIA PHARMACEUTICA,"instrument=ACAD
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,19.80,19.60,3,20.06,100,<empty>,0,0,0,30.96,18.39
+ACHR,ARCHER AVIATION INC A,"instrument=ACHR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,4.04,4.03,386,4.05,1,"24,584",0,0,0,11.97,3.97
+ADBE,ADOBE INC,"instrument=ADBE
+trend=[null, RED, GREEN, RED, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.49%,248.31,248.30,14,248.54,15,"2,575",0,0,0,363.70,190.12
+ADI,ANALOG DEVICES INC,"instrument=ADI
+trend=[null, GREEN, GREEN, GREEN, GREEN, GREEN, null, null, null, null]
+headPointer=5
+separatorPointer=5
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.13%,393.82,393.77,1,395.22,42,"2,569",0,0,0,445.91,223.47
+AEHR,AEHR TEST SYS,"instrument=AEHR
+trend=[null, RED, BRIGHT_GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.89%,62.13,61.94,100,62.23,100,"47,058",0,0,0,147.40,18.70
+AEO,AMERICAN EAGLE OUTFI,"instrument=AEO
+trend=[null, RED, RED, GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.39%,18.00,17.91,394,18.03,400,"2,500",0,0,0,28.46,14.10
+AES,AES CORP,"instrument=AES
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.20%,14.99,14.91,13,14.99,632,145,0,0,0,17.65,13.21
+AFRM,AFFIRM HLDGS INC Class A,"instrument=AFRM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.01%,72.81,72.68,80,72.99,3,292,0,0,0,90.44,42.095
+AHCO,ADAPT HEALTH CORP,"instrument=AHCO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,5.88,5.71,500,6.07,500,<empty>,0,0,0,13.43,5.21
+AI,C3 AI INC A,"instrument=AI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.27%,11.31,11.30,29,11.35,8,464,0,0,0,18.64,7.675
+AKAM,AKAMAI TECHNOLOGIES,"instrument=AKAM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.58%,86.74,86.71,92,87.04,73,"12,753",0,0,0,165.45,70.82
+ALAB,ASTERA LABS INC,"instrument=ALAB
+trend=[RED, BRIGHT_RED, BRIGHT_GREEN, GREEN, GREEN, RED, BRIGHT_GREEN, BRIGHT_RED, GREEN_OVER_RED, GREEN]
+headPointer=5
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.26%,282.98,282.13,2,282.98,35,"12,407",0,0,0,499.4762,97.89
+ALB,ALBEMARLE CORP,"instrument=ALB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.22%,94.43,94.33,40,94.80,60,387,0,0,0,221.00,88.01
+ALNY,ALNYLAM PHARMACEUTIC,"instrument=ALNY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.05%,233.41,233.44,85,234.45,24,<empty>,0,0,0,490.05,197.81
+AMAT,APPLIED MATLS INC,"instrument=AMAT
+trend=[GREEN, RED, RED_OVER_GREEN, GREEN, BRIGHT_GREEN, BRIGHT_RED, RED, GREEN, BRIGHT_GREEN, BRIGHT_GREEN]
+headPointer=1
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.61%,410.59,410.07,7,410.50,49,"22,492",0,0,0,739.67,203.40
+AMBA,AMBARELLA INC,"instrument=AMBA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.72%,62.31,61.97,333,63.95,26,180,0,0,0,96.69,48.30
+AMCR,AMCOR PLC,"instrument=AMCR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.20%,44.04,43.80,681,44.04,557,92,0,0,0,50.94,36.25
+AMD,ADVANCED MICRO DEVIC,"instrument=AMD
+trend=[BRIGHT_GREEN, GREEN, GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_RED, GREEN, GREEN, BRIGHT_RED, GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.75%,533.99,533.93,1,534.49,2,"106,398",0,0,0,658.52,188.22
+AMDL,GraniteShares 2x Long AMD Daily ETF,"instrument=AMDL
+trend=[BRIGHT_RED, GREEN, RED, GREEN, RED, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, GREEN, BRIGHT_GREEN]
+headPointer=6
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.47%,59.06,58.96,310,59.12,108,"30,408",0,0,0,91.16,10.80
+AMGN,AMGEN INC,"instrument=AMGN
+trend=[null, BRIGHT_GREEN, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.60%,427.49,427.19,17,428.78,36,357,0,0,0,447.03,288.00
+AMKR,AMKOR TECHNOLOGY INC,"instrument=AMKR
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.00%,41.47,41.36,40,41.69,100,"10,868",0,0,0,96.68,29.50
+AMPX,AMPRIUS TECHNOLOGIES,"instrument=AMPX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.13%,7.58,7.60,500,7.64,22,"12,465",0,0,0,24.225,7.285
+AMTM,AMENTUM HLDGS INC EQ,"instrument=AMTM
+trend=[null, RED, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.31%,19.42,19.39,100,19.57,100,115,0,0,0,38.11,17.72
+AMZN,AMAZON.COM INC,"instrument=AMZN
+trend=[BRIGHT_RED, GREEN, RED, RED, GREEN, RED, BRIGHT_GREEN, BRIGHT_GREEN, RED, GREEN]
+headPointer=7
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.38%,263.46,263.49,82,263.59,12,"190,153",0,0,0,287.20,196.00
+AMZU,Direxion Daily AMZN Bull 2X Shares,"instrument=AMZU
+trend=[null, GREEN, BRIGHT_GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.75%,37.60,37.57,300,37.66,100,"52,949",0,0,0,47.14,24.54
+ANF,ABERCROMBIE & FITCH Class A,"instrument=ANF
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.27%,162.45,162.08,40,163.03,50,9,0,0,0,162.6899,65.45
+APA,APA CORP,"instrument=APA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.78%,50.15,50.05,200,50.22,165,"1,644",0,0,0,49.85,21.63
+APH,AMPHENOL CORP NEW Class A,"instrument=APH
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.29%,80.05,80.00,16,80.12,140,"4,225",0,0,0,89.93,59.005
+APLD,APPLIED DIGITAL CORP,"instrument=APLD
+trend=[null, GREEN, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.88%,19.08,19.05,100,19.09,"2,592","134,964",0,0,0,50.725,17.651
+APLX,INVESTMENT MGRS SER TR II TRADR 2X LONG APLD DAILY ETF,"instrument=APLX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.73%,3.97,3.95,"1,100",3.98,900,"58,834",0,0,0,49.14333333,3.40
+APO,APOLLO GLOBAL MGMT I A,"instrument=APO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.31%,111.29,111.15,73,111.55,50,5,0,0,0,153.29,99.56
+APP,APPLOVIN CORP Class A,"instrument=APP
+trend=[GREEN, RED, GREEN, RED, GREEN, RED, RED, RED, GREEN, RED]
+headPointer=5
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.23%,268.50,267.90,68,268.95,177,"3,304",0,0,0,738.01,260.59
+ARM,ARM HLDGS PLC EQUITY Equity ADR,"instrument=ARM
+trend=[null, GREEN, RED, GREEN, GREEN, GREEN, RED, GREEN, GREEN, BRIGHT_GREEN]
+headPointer=9
+separatorPointer=9
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.03%,225.70,225.50,1,225.73,101,"36,478",0,0,0,452.70,100.02
+ARRY,ARRAY TECHNOLOGIES I,"instrument=ARRY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.92%,3.29,3.25,"1,200",3.29,"1,200",1,0,0,0,12.23,3.20
+ASML,ASML HLDG N V ADR,"instrument=ASML
+trend=[null, GREEN, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.19%,1643.97,1640.50,64,1645.50,17,"6,977",0,0,0,1999.96,946.11
+ASST,STRIVE INC,"instrument=ASST
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.23%,25.60,25.59,757,25.68,546,"28,994",0,0,0,36.20,7.02
+ASTX,TRDR 2X LG ASTS DLY,"instrument=ASTX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-2.21%,4.42,4.40,"1,650",4.42,"1,450","118,113",0,0,0,114.18,4.12
+ASX,ASE TECHNOLOGY HLDG ADR,"instrument=ASX
+trend=[null, RED, BRIGHT_GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.78%,40.48,40.40,247,40.60,104,"67,884",0,0,0,47.93,12.31
+AVAV,AEROVIRONMENT INC,"instrument=AVAV
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.04%,117.95,117.42,500,118.30,23,"5,535",0,0,0,408.25,116.425
+AVGO,BROADCOM INC,"instrument=AVGO
+trend=[GREEN, GREEN, GREEN, RED, GREEN, RED_OVER_GREEN, BRIGHT_GREEN, RED, RED, BRIGHT_GREEN]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.32%,333.53,333.49,49,333.72,40,"91,329",0,0,0,495.00,289.96
+AVGX,DEFI 2X LNG AVGO,"instrument=AVGX
+trend=[null, GREEN, GREEN, BRIGHT_GREEN, GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.89%,33.42,33.45,100,33.55,300,"13,551",0,0,0,84.80,30.84
+AXP,AMERICAN EXPRESS CO,"instrument=AXP
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.38%,317.60,317.30,12,317.60,1,"1,413",0,0,0,387.49,290.967
+AXTI,AXT INC,"instrument=AXTI
+trend=[GREEN, GREEN, GREEN, RED, GREEN, RED, RED, GREEN, RED, BRIGHT_GREEN]
+headPointer=1
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-3.03%,55.07,55.05,100,55.17,100,"258,530",0,0,0,143.16,4.81
+AXTU,T-REX 2X LONG AXTI DAILY TARGET ETF,"instrument=AXTU
+trend=[null, RED, GREEN, GREEN, RED_OVER_GREEN, BRIGHT_GREEN, GREEN, null, null, null]
+headPointer=6
+separatorPointer=6
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-7.07%,21.43,21.42,700,21.78,700,"2,744",0,0,0,403.70,16.10
+B,BARRICK MNG CORP,"instrument=B
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.27%,40.33,40.29,160,40.45,206,"4,526",0,0,0,54.69,30.35
+BA,BOEING CO,"instrument=BA
+trend=[null, GREEN, GREEN, RED, GREEN, RED, GREEN, null, null, null]
+headPointer=6
+separatorPointer=6
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.53%,192.44,192.41,100,192.48,2,"5,977",0,0,0,254.3499,176.77
+BAC,BANK OF AMERICA CORP,"instrument=BAC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.18%,50.48,50.47,"1,426",50.52,80,"11,001",0,0,0,65.225,46.115
+BB,BLACKBERRY LTD,"instrument=BB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.61%,8.11,8.06,112,8.11,"5,227","8,156",0,0,0,13.59,3.1201
+BBAI,BIGBEAR AI HLDGS INC,"instrument=BBAI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,2.12,2.11,"1,947",2.13,508,"7,084",0,0,0,7.50,2.09
+BE,BLOOM ENERGY CORP A,"instrument=BE
+trend=[BRIGHT_RED, BRIGHT_GREEN, RED, GREEN, GREEN, RED, GREEN, BRIGHT_RED, BRIGHT_RED, GREEN]
+headPointer=4
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.00%,223.95,223.95,2,224.28,30,"90,737",0,0,0,351.28,75.70
+BKSY,BLACKSKY TECHNOLOGY,"instrument=BKSY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.12%,17.15,16.93,100,17.24,9,459,0,0,0,52.88,12.41
+BLDP,BALLARD PWR SYS INC,"instrument=BLDP
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.32%,1.54,1.52,369,1.54,"1,977",725,0,0,0,6.5699,1.5001
+BLK,BLACKROCK INC NEW,"instrument=BLK
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.75%,1133.03,1131.94,40,1134.00,2,473,0,0,0,1187.1708,917.39
+BMNR,BITMINE IMMERSION TE,"instrument=BMNR
+trend=[null, RED, GREEN, RED, GREEN, BRIGHT_RED, GREEN, GREEN, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.14%,21.54,21.55,700,21.58,132,"241,037",0,0,0,55.19,12.80
+BMNU,T-REX 2X LONG BMNR DAILY TARGET ETF,"instrument=BMNU
+trend=[null, RED, GREEN, RED, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.75%,13.31,13.37,600,13.44,105,"35,121",0,0,0,284.20,6.10
+BMY,BRISTOL MYERS SQUIBB,"instrument=BMY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.54%,59.15,59.04,2,59.14,100,687,0,0,0,68.64,42.52
+BNY,BANK NEW YORK MELLON,"instrument=BNY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.27%,142.05,142.09,104,143.40,114,84,0,0,0,165.84,105.36
+BRK/B,BERKSHIRE HATHAWAY Class B,"instrument=BRK/B
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.41%,534.42,534.02,37,534.89,2,"1,758",0,0,0,537.74,464.01
+BTDR,BITDEER TECHNOLOGIES A,"instrument=BTDR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+2.73%,7.90,7.85,171,7.91,101,"13,387",0,0,0,25.28,6.9157
+BTGO,BITGO HLDGS INC A,"instrument=BTGO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,5.61,5.58,743,5.72,579,5,0,0,0,24.50,4.6516
+BULL,WEBULL CORP A,"instrument=BULL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.51%,5.87,5.86,300,5.87,"4,249","18,581",0,0,0,11.97,4.50
+BX,BLACKSTONE INC,"instrument=BX
+trend=[null, GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.14%,107.24,107.23,159,107.49,115,596,0,0,0,165.14,101.73
+BYND,BEYOND MEAT INC,"instrument=BYND
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.07%,6.64,6.57,990,6.60,100,150,0,0,0,230.70,6.545
+CAN,CANAAN INC A ADR,"instrument=CAN
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.34%,.2318,.2318,270,.2338,480,"13,931",0,0,0,2.1000,.1516
+CAT,CATERPILLAR INC,"instrument=CAT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.23%,724.10,722.13,1,724.10,130,763,0,0,0,1073.46,510.21
+CCJ,CAMECO CORP,"instrument=CCJ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.16%,80.83,80.46,7,81.11,90,"2,996",0,0,0,135.24,77.70
+CCXI,CHURCHILL CAP CORP X A,"instrument=CCXI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.67%,10.55,10.49,816,10.56,204,708,0,0,0,19.69,10.07
+CDNS,CADENCE DESIGN SYS I,"instrument=CDNS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.18%,326.44,326.28,1,327.88,70,509,0,0,0,416.69,262.749
+CEG,CONSTELLATION ENERGY,"instrument=CEG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.08%,263.40,263.01,1,263.63,66,"3,143",0,0,0,406.0425,228.63
+CHTR,CHARTER COMMUNICATIO Class A,"instrument=CHTR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.15%,108.67,108.40,3,108.69,3,134,0,0,0,255.00,101.63
+CIBR,First Trust NASDAQ Cybersecurity ETF,"instrument=CIBR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.07%,99.99,99.94,2,100.05,100,554,0,0,0,110.68,60.07
+CIEN,CIENA CORP,"instrument=CIEN
+trend=[null, GREEN, GREEN, GREEN, RED, GREEN, null, null, null, null]
+headPointer=5
+separatorPointer=5
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.51%,339.01,338.74,24,339.99,13,"3,392",0,0,0,637.51,159.56
+CMG,CHIPOTLE MEXICAN GRI,"instrument=CMG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,29.85,29.84,433,29.91,335,"7,215",0,0,0,42.74,28.035
+COHR,COHERENT CORP,"instrument=COHR
+trend=[RED_OVER_GREEN, GREEN, BRIGHT_GREEN, GREEN, GREEN, GREEN, GREEN, RED, BRIGHT_RED, GREEN_OVER_RED]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.39%,228.80,228.63,40,229.13,43,"51,880",0,0,0,440.00,112.96
+COIN,COINBASE GLOBAL INC Class A,"instrument=COIN
+trend=[BRIGHT_RED, BRIGHT_GREEN, RED, BRIGHT_RED, GREEN, GREEN, RED, RED, RED, GREEN]
+headPointer=1
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.18%,168.15,168.02,61,168.28,100,"57,988",0,0,0,373.25,139.11
+CONL,GraniteShares 2x Long COIN Daily ETF,"instrument=CONL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.88%,4.53,4.53,"5,500",4.55,"2,700","191,477",0,0,0,43.83,3.56
+COST,COSTCO WHSL CORP NEW,"instrument=COST
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.39%,999.45,999.55,13,1000.69,10,"2,568",0,0,0,1096.50,844.06
+COTY,COTY INC A,"instrument=COTY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,3.19,3.08,"3,200",3.23,44,<empty>,0,0,0,4.245,1.82
+CRCA,PROSHARES ULTRA CRCL NEW,"instrument=CRCA
+trend=[RED, GREEN, RED, GREEN, RED, GREEN, RED, GREEN, RED, GREEN]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.54%,16.61,16.70,700,16.80,"1,200","10,460",0,0,0,167.10,10.07
+CRCL,CIRCLE INTERNET GROU A,"instrument=CRCL
+trend=[GREEN, RED, GREEN_OVER_RED, BRIGHT_RED, BRIGHT_RED, RED_OVER_GREEN, RED, GREEN_OVER_RED, BRIGHT_GREEN, BRIGHT_GREEN]
+headPointer=8
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.49%,81.77,81.79,60,81.90,20,"150,075",0,0,0,147.44,49.90
+CRDO,CREDO TECHNOLOGY GRO,"instrument=CRDO
+trend=[BRIGHT_GREEN, GREEN, GREEN, GREEN, GREEN, RED, RED, BRIGHT_RED, GREEN, RED]
+headPointer=8
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.16%,170.80,170.71,8,171.00,146,"24,837",0,0,0,308.6699,86.485
+CRDU,Tradr 2X Long CRDO Daily ETF,"instrument=CRDU
+trend=[null, GREEN, GREEN, GREEN, RED, GREEN, RED, null, null, null]
+headPointer=6
+separatorPointer=6
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-3.80%,6.59,6.66,"5,453",6.72,"3,640","8,554",0,0,0,31.72,3.2175
+CRM,SALESFORCE INC,"instrument=CRM
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.52%,243.71,243.42,92,243.73,100,"7,947",0,0,0,269.11,146.32
+CRML,CRITICAL METALS CORP,"instrument=CRML
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.31%,6.49,6.45,"1,051",6.53,9,"8,313",0,0,0,21.86,5.115
+CRSP,CRISPR THERAPEUTICS,"instrument=CRSP
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.22%,49.43,49.23,229,49.40,"1,500","2,487",0,0,0,75.06,44.12
+CRWD,CROWDSTRIKE HLDGS IN Class A,"instrument=CRWD
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.13%,227.80,227.71,52,228.00,204,"9,501",0,0,0,286.9899,85.68
+CRWG,Leverage Shares 2X Long CRWV Daily ETF,"instrument=CRWG
+trend=[null, GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-3.86%,7.96,7.94,693,7.98,"3,321","231,231",0,0,0,138.80,7.80
+CRWV,COREWEAVE INC Class A,"instrument=CRWV
+trend=[GREEN, GREEN, GREEN, BRIGHT_RED, GREEN, BRIGHT_GREEN, RED, RED, GREEN, RED]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-2.00%,59.90,59.88,44,59.94,386,"756,242",0,0,0,141.79,59.25
+CSCO,CISCO SYS INC,"instrument=CSCO
+trend=[GREEN, GREEN, RED, GREEN, BRIGHT_RED, GREEN, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, RED]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.23%,106.75,106.58,100,106.70,128,"7,311",0,0,0,130.3656,69.85
+CSIQ,CANADIAN SOLAR INC,"instrument=CSIQ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.78%,9.40,9.30,775,9.52,14,"5,054",0,0,0,34.59,9.30
+CVNA,CARVANA CO Class A,"instrument=CVNA
+trend=[null, GREEN_OVER_RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.24%,58.85,58.79,43,58.96,83,"1,302",0,0,0,97.378,54.464
+CVX,CHEVRON CORP NEW,"instrument=CVX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.53%,225.56,225.34,92,225.82,9,"4,576",0,0,0,225.67,146.49
+DDM,ProShares Ultra Dow30,"instrument=DDM
+trend=[null, RED, GREEN, RED, GREEN, GREEN, RED, null, null, null]
+headPointer=6
+separatorPointer=6
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.25%,63.75,63.96,300,64.00,100,"2,082",0,0,0,71.25,49.26
+DDOG,DATADOG INC Class A,"instrument=DDOG
+trend=[null, RED, RED, GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.63%,262.00,261.48,1,262.40,25,"2,944",0,0,0,300.68,98.0101
+DECK,DECKERS OUTDOOR CORP,"instrument=DECK
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.41%,87.60,87.31,93,87.83,60,93,0,0,0,122.2899,77.20
+DELL,DELL TECHNOLOGIES IN Class C,"instrument=DELL
+trend=[null, BRIGHT_GREEN, BRIGHT_GREEN, RED, GREEN_OVER_RED, RED, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.03%,450.73,450.49,40,451.46,11,"23,276",0,0,0,595.51,110.22
+DIA,State Street SPDR Dow Jones Industrial Average ETF Trust,"instrument=DIA
+trend=[BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, RED, GREEN_OVER_RED, GREEN, BRIGHT_GREEN, GREEN]
+headPointer=6
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.27%,520.34,520.71,200,520.80,900,"2,338",0,0,0,546.75,450.44
+DIS,DISNEY WALT CO,"instrument=DIS
+trend=[null, GREEN_OVER_RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.54%,110.18,109.89,22,110.18,8,"4,360",0,0,0,117.0888,92.185
+DJT,TRUMP MEDIA & TECHNO,"instrument=DJT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.47%,6.46,6.45,102,6.46,66,"29,909",0,0,0,17.09,6.40
+DJTU,T-REX 2X Long DJT Daily Target ETF,"instrument=DJTU
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.18%,5.49,5.45,201,5.50,100,632,0,0,0,77.10,5.40
+DLO,DLOCAL LTD A,"instrument=DLO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.14%,14.75,14.68,214,14.76,6,47,0,0,0,16.15,10.64
+DNOW,DNOW INC,"instrument=DNOW
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,16.21,15.82,200,16.45,300,<empty>,0,0,0,17.26,10.935
+DOW,DOW INC,"instrument=DOW
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.30%,30.17,29.88,115,30.17,200,111,0,0,0,42.74,20.93
+DPRO,DRAGANFLY INC EQUITY Equity,"instrument=DPRO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.12%,3.52,3.52,114,3.58,300,1,0,0,0,11.28,3.545
+DPST,Direxion Daily Regional Banks Bull 3X Shares ETF,"instrument=DPST
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.36%,107.26,107.46,30,109.53,30,4,0,0,0,158.88,73.86
+DRAM,ROUNDHILL MEMORY ETF,"instrument=DRAM
+trend=[null, GREEN, GREEN, RED, GREEN, GREEN, null, null, null, null]
+headPointer=5
+separatorPointer=5
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-2.50%,47.12,47.11,401,47.12,"31,779","1,248,093",0,0,0,81.34,26.14
+DRS,LEONARDO DRS INC,"instrument=DRS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,35.18,35.05,85,35.48,70,10,0,0,0,50.59,32.43
+DUK,DUKE ENERGY CORP NEW,"instrument=DUK
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.36%,119.70,119.22,116,119.98,100,166,0,0,0,134.49,112.40
+DUOL,DUOLINGO INC A,"instrument=DUOL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.02%,142.14,141.80,30,142.50,21,176,0,0,0,325.93,87.89
+DXYZ,DESTINY TECH 100 INC,"instrument=DXYZ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.76%,27.42,27.43,38,27.65,111,795,0,0,0,72.87,19.7105
+ED,CONSOLIDATED EDISON,"instrument=ED
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,109.69,109.42,117,110.21,100,3,0,0,0,116.23,94.96
+EGG,ENIGMATIG LTD A,"instrument=EGG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,4.99,4.78,188,5.03,20,<empty>,0,0,0,13.07,2.04
+ELBM,ELECTRA BATTERY MATL,"instrument=ELBM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.43%,.4398,.4398,"3,599",.5096,300,1,0,0,0,1.9100,.4269
+ELMT,ELMET GROUP CO,"instrument=ELMT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.75%,18.89,18.45,5,18.86,5,2,0,0,0,25.03,12.485
+ENPH,ENPHASE ENERGY INC,"instrument=ENPH
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.03%,30.62,30.53,326,30.71,100,950,0,0,0,73.74,25.775
+ENTG,ENTEGRIS INC,"instrument=ENTG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.59%,142.22,141.88,7,143.70,29,876,0,0,0,186.94,67.97
+EOSE,EOS ENERGY ENTERPRIS A,"instrument=EOSE
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.55%,1.80,1.78,600,1.80,"2,490","83,116",0,0,0,19.86,1.72
+ETHU,VOLATILITY SHS TR 2X ETHER ETF,"instrument=ETHU
+trend=[null, RED, RED_OVER_GREEN, GREEN, RED, RED, BRIGHT_GREEN, RED, BRIGHT_RED, GREEN]
+headPointer=9
+separatorPointer=9
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.46%,23.88,23.84,"2,800",23.87,"4,348","110,938",0,0,0,128.20,10.7201
+ETN,EATON CORP PLC,"instrument=ETN
+trend=[null, BRIGHT_GREEN, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.67%,388.86,389.93,31,391.13,11,"1,205",0,0,0,478.00,311.915
+EVTL,VERTICAL AEROSPACE L,"instrument=EVTL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.07%,.4122,.4119,225,.4227,100,"1,701",0,0,0,7.3277,.34435
+EVTV,AZIO AI HOLDINGS IC,"instrument=EVTV
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",<empty>,1.95,1.94,<empty>,1.95,<empty>,<empty>,<empty>,<empty>,<empty>,5.07,.3321
+F,FORD MTR CO DEL,"instrument=F
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.08%,12.17,12.19,"1,320",12.22,"1,285","3,520",0,0,0,17.78,11.11
+FCX,FREEPORT-MCMORAN INC,"instrument=FCX
+trend=[null, RED, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.57%,69.35,69.35,100,69.66,101,"5,707",0,0,0,80.24,38.54
+FDX,FEDEX CORP,"instrument=FDX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.19%,294.34,293.27,16,294.42,11,7,0,0,0,345.365,188.98468977
+FF,FUTUREFUEL CORP,"instrument=FF
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,5.59,5.56,200,5.62,213,<empty>,0,0,0,6.99,3.09
+FFAI,FARADAY FUTURE INTEL A,"instrument=FFAI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+2.75%,.6940,.6880,"1,472",.7000,100,"5,915",0,0,0,235.5000,.6622
+FIG,FIGMA INC A,"instrument=FIG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,21.54,21.50,100,21.58,122,"9,463",0,0,0,57.2499,16.60
+FIGG,Leverage Shares 2x Long FIG Daily ETF,"instrument=FIGG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.57%,15.68,15.49,"1,300",15.79,100,94,0,0,0,232.60,12.40
+FIGR,FIGURE TECHNOLOGY SO Class A,"instrument=FIGR
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.27%,25.77,25.66,60,25.89,50,480,0,0,0,78.00,24.10
+FISV,FISERV INC,"instrument=FISV
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.25%,47.81,47.69,527,47.88,100,551,0,0,0,128.78,43.87
+FJET,STARFIGHTERS SPACE I,"instrument=FJET
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,1.06,1.04,300,1.07,112,<empty>,0,0,0,31.50,1.035
+FLNC,FLUENCE ENERGY INC Class A,"instrument=FLNC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.68%,5.82,5.81,800,5.84,540,"24,361",0,0,0,33.51,5.68
+FLY,FIREFLY AEROSPACE IN,"instrument=FLY
+trend=[null, RED_OVER_GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.30%,16.59,16.56,435,16.64,225,"2,622",0,0,0,62.17,15.99
+FLYT,TRADR 2 LONG FLY,"instrument=FLYT
+trend=[null, RED, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.18%,2.740,2.700,"2,200",2.740,"1,000",922,0,0,0,58.5148,2.550
+FN,FABRINET,"instrument=FN
+trend=[null, GREEN, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.88%,359.49,358.79,20,360.00,8,"1,515",0,0,0,748.89,359.395
+FNMA,FEDERAL NATL MTG ASS,"instrument=FNMA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-9.04%,3.42,2.90,<empty>,7.00,<empty>,"5,052,660",3.85,3.87,3.33,12.87,2.96
+FPS,FORGENT PWR SOLUTION A,"instrument=FPS
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.27%,31.12,31.20,1,31.51,60,"4,555",0,0,0,66.00,25.95
+FSLR,FIRST SOLAR INC,"instrument=FSLR
+trend=[null, GREEN, GREEN, GREEN_OVER_RED, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.11%,171.99,171.38,3,172.54,24,"1,442",0,0,0,320.95,168.60
+FTNT,FORTINET INC,"instrument=FTNT
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.26%,171.94,171.70,27,172.48,5,"1,721",0,0,0,197.13,73.55
+FUTU,FUTU HLDGS LTD ADR,"instrument=FUTU
+trend=[null, BRIGHT_GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.42%,105.06,105.17,8,105.43,5,"12,814",0,0,0,202.5299,80.50
+GD,GENERAL DYNAMICS COR,"instrument=GD
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.14%,340.96,340.48,54,342.12,14,178,0,0,0,400.00,306.77
+GDX,VanEck Gold Miners ETF,"instrument=GDX
+trend=[null, GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.01%,86.48,86.40,686,86.53,100,"51,042",0,0,0,117.175,68.13
+GDXJ,VanEck Junior Gold Miners ETF,"instrument=GDXJ
+trend=[null, GREEN, RED, BRIGHT_GREEN, GREEN, RED, RED, GREEN, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.33%,108.00,107.67,"1,000",108.67,"1,000",524,0,0,0,157.49,87.35
+GE,GE AEROSPACE,"instrument=GE
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.47%,309.83,310.07,65,310.86,40,"5,195",0,0,0,388.84,268.91
+GEV,GE VERNOVA INC,"instrument=GEV
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.59%,903.08,902.19,18,906.60,53,"2,844",0,0,0,1195.94,530.16
+GFS,GLOBALFOUNDRIES INC,"instrument=GFS
+trend=[null, GREEN, BRIGHT_GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.48%,45.89,45.82,36,46.04,101,"13,268",0,0,0,92.55,32.02
+GGLL,Direxion Daily GOOGL Bull 2X Shares,"instrument=GGLL
+trend=[GREEN, GREEN, GREEN, BRIGHT_GREEN, GREEN, RED, RED, RED, GREEN, RED]
+headPointer=1
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.02%,98.84,99.08,200,99.22,100,"8,230",0,0,0,153.00,63.01
+GH,GUARDANT HEALTH INC,"instrument=GH
+trend=[null, BRIGHT_GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,157.88,157.10,24,158.19,3,<empty>,0,0,0,191.05,66.59
+GILD,GILEAD SCIENCES INC,"instrument=GILD
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.42%,153.72,153.13,33,153.72,21,688,0,0,0,160.51,114.02
+GLD,SPDR Gold Shares,"instrument=GLD
+trend=[BRIGHT_RED, GREEN_OVER_RED, BRIGHT_GREEN, GREEN, BRIGHT_RED, RED, GREEN, BRIGHT_GREEN, RED, RED]
+headPointer=5
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.26%,378.72,378.66,90,378.78,2,"53,302",0,0,0,509.70,360.12
+GLW,CORNING INC,"instrument=GLW
+trend=[BRIGHT_RED, RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, BRIGHT_GREEN, GREEN, BRIGHT_GREEN]
+headPointer=7
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.02%,131.39,131.31,132,131.56,60,"30,849",0,0,0,271.78,77.39
+GM,GENERAL MTRS CO,"instrument=GM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.22%,82.93,82.63,123,82.93,454,"6,173",0,0,0,91.85,62.36
+GOOG,ALPHABET INC Class C,"instrument=GOOG
+trend=[GREEN, RED, GREEN, BRIGHT_GREEN, GREEN, GREEN, RED, BRIGHT_GREEN, GREEN, RED]
+headPointer=3
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.12%,340.57,340.60,150,340.79,40,"34,775",0,0,0,404.47,244.67
+GRAB,GRAB HLDGS LTD A,"instrument=GRAB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,2.87,2.87,385,2.88,18,"52,374",0,0,0,6.24,2.74
+GS,GOLDMAN SACHS GROUP,"instrument=GS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.11%,876.78,877.11,31,879.03,31,575,0,0,0,1153.99,743.11
+GSAT,GLOBALSTAR INC,"instrument=GSAT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,83.26,83.03,50,83.50,133,2,0,0,0,84.85,40.50
+GSIT,GSI TECHNOLOGY INC,"instrument=GSIT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,4.06,4.00,100,4.08,100,3,0,0,0,17.14,3.97
+GTLB,GITLAB INC Class A,"instrument=GTLB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.13%,53.22,53.17,80,53.38,140,7,0,0,0,57.89,18.73
+HD,HOME DEPOT INC,"instrument=HD
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.48%,311.37,311.37,60,311.67,2,"1,279",0,0,0,397.63,277.15
+HII,HUNTINGTON INGALLS I,"instrument=HII
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,269.64,267.06,10,270.68,3,30,0,0,0,460.00,255.355
+HIMS,HIMS & HERS HEALTH I A,"instrument=HIMS
+trend=[null, BRIGHT_GREEN, BRIGHT_RED, GREEN, RED, BRIGHT_GREEN, RED, BRIGHT_GREEN, BRIGHT_GREEN, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,28.15,28.14,481,28.19,200,"17,759",0,0,0,51.36,13.74
+HON,HONEYWELL INTL INC,"instrument=HON
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.14%,210.27,210.27,1,210.76,6,10,0,0,0,252.00,186.76
+HOOD,ROBINHOOD MKTS INC Class A,"instrument=HOOD
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.02%,96.50,96.43,120,96.50,100,"114,515",0,0,0,150.47,63.515
+HP,HELMERICH & PAYNE IN,"instrument=HP
+trend=[null, BRIGHT_GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,38.20,38.22,44,39.02,40,<empty>,0,0,0,48.17,23.20
+HPE,HEWLETT PACKARD ENTE,"instrument=HPE
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.54%,55.57,55.51,107,55.58,206,"25,456",0,0,0,73.56,19.84
+HPQ,HP INC,"instrument=HPQ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.17%,30.29,30.21,200,30.34,104,420,0,0,0,36.225,17.56
+HROW,HARROW INC,"instrument=HROW
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,27.68,27.62,100,27.77,100,<empty>,0,0,0,54.85,26.96
+HUBB,HUBBELL INC,"instrument=HUBB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.22%,463.89,461.23,3,467.13,34,51,0,0,0,565.4999,403.82
+HUT,HUT 8 CORP,"instrument=HUT
+trend=[null, GREEN, BRIGHT_GREEN, RED_OVER_GREEN, BRIGHT_GREEN, RED, GREEN, RED, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.13%,67.40,67.06,18,67.60,41,"60,271",0,0,0,140.80,31.67
+HWM,HOWMET AEROSPACE INC,"instrument=HWM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.25%,219.47,219.70,58,221.15,165,65,0,0,0,310.00,188.83
+IBKR,INTERACTIVE BROKERS Class A,"instrument=IBKR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.04%,81.38,81.39,100,81.57,100,"1,146",0,0,0,98.75,58.95
+INCY,INCYTE CORP,"instrument=INCY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.10%,113.3628,113.15,60,113.55,60,<empty>,0,0,0,132.60,84.02
+INFQ,INFLEQTION INC A,"instrument=INFQ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.57%,8.70,8.70,20,8.75,11,"13,464",0,0,0,24.22,8.42
+INTC,INTEL CORP,"instrument=INTC
+trend=[RED, RED, GREEN, GREEN, BRIGHT_GREEN, GREEN, GREEN, BRIGHT_GREEN, GREEN, GREEN]
+headPointer=4
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.58%,91.50,91.49,68,91.50,243,"804,001",0,0,0,142.35,32.89
+INTW,GraniteShares 2x Long INTC Daily ETF,"instrument=INTW
+trend=[GREEN, GREEN, BRIGHT_GREEN, GREEN, BRIGHT_GREEN, GREEN, BRIGHT_GREEN, GREEN, RED, RED]
+headPointer=3
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.17%,17.72,17.75,800,17.77,"1,000","133,873",0,0,0,52.625,4.47
+IONR,IONEER LTD ADR,"instrument=IONR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+4.00%,2.86,2.75,"2,000",2.88,79,<empty>,0,0,0,6.5335,2.66
+IRDM,IRIDIUM COMMUNICATIO,"instrument=IRDM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.16%,44.25,43.81,100,44.51,100,73,0,0,0,57.18,15.645
+ISRG,INTUITIVE SURGICAL I,"instrument=ISRG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.27%,434.36,434.36,23,434.99,1,892,0,0,0,603.88,328.57
+IWM,iShares Russell 2000 ETF,"instrument=IWM
+trend=[GREEN, BRIGHT_GREEN, GREEN, GREEN, BRIGHT_RED, GREEN, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, GREEN]
+headPointer=3
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.24%,271.94,271.93,524,271.96,200,"29,285",0,0,0,305.18,228.90
+JCAP,JEFFERSON CAP INC DE,"instrument=JCAP
+trend=[null, BRIGHT_GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,20.31,20.32,100,20.48,100,<empty>,0,0,0,24.44,15.50
+JNJ,JOHNSON & JOHNSON,"instrument=JNJ
+trend=[null, BRIGHT_RED, RED_OVER_GREEN, GREEN_OVER_RED, BRIGHT_RED, BRIGHT_GREEN, GREEN_OVER_RED, null, null, null]
+headPointer=6
+separatorPointer=6
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.70%,255.57,255.05,50,255.72,34,"4,752",0,0,0,281.07,184.66
+JOBX,Tradr 2X Long JOBY Daily ETF,"instrument=JOBX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.24%,4.13,4.10,420,4.15,812,55,0,0,0,107.04,3.86
+JOBY,JOBY AVIATION INC A,"instrument=JOBY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.22%,4.60,4.60,224,4.61,"1,591","37,246",0,0,0,17.505,4.43
+JPM,JPMORGAN CHASE & CO,"instrument=JPM
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.40%,334.88,334.86,40,335.08,4,"3,265",0,0,0,366.50,279.10
+KEEL,KEEL INFRASTRUCTURE,"instrument=KEEL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.27%,2.33,2.33,1,2.35,"2,159","10,277",0,0,0,7.37,1.68
+KGC,KINROSS GOLD CORP,"instrument=KGC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.42%,23.55,23.56,213,23.73,488,399,0,0,0,39.11,21.90
+KHC,KRAFT HEINZ CO,"instrument=KHC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,23.17,23.22,"1,513",23.26,20,"4,053",0,0,0,28.09,21.035
+KITT,NAUTICUS ROBOTICS IN,"instrument=KITT
+trend=[null, GREEN_OVER_RED, GREEN, RED, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+4.72%,1.33,1.24,200,1.36,5,257,0,0,0,164.64,1.21
+KLAC,KLA CORP,"instrument=KLAC
+trend=[null, GREEN, GREEN, BRIGHT_RED, GREEN, GREEN, RED, BRIGHT_GREEN, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.49%,165.58,165.10,69,165.58,25,"13,591",0,0,0,307.3743,107.196
+KMT,KENNAMETAL INC,"instrument=KMT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,30.62,30.36,55,31.05,54,<empty>,0,0,0,43.81,21.70
+KMX,CARMAX INC,"instrument=KMX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.02%,51.66,51.40,40,51.98,50,50,0,0,0,65.28,30.26
+KO,THE COCA-COLA CO,"instrument=KO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.31%,93.71,93.72,100,93.75,2,"15,539",0,0,0,94.10,67.274
+KR,KROGER CO,"instrument=KR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.59%,63.42,63.07,50,63.47,120,89,0,0,0,76.58,54.15
+KTOS,KRATOS DEFENSE & SEC,"instrument=KTOS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.26%,39.07,39.00,547,39.17,70,"5,965",0,0,0,134.00,37.84
+LABU,Direxion Shares DAILY S&P BIOTECH BULL 3X ETF,"instrument=LABU
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.84%,211.01,211.16,107,213.20,125,"1,206",0,0,0,341.93,108.90
+LAC,LITHIUM AMERS CORP,"instrument=LAC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,2.14,2.14,6,2.15,154,"1,081",0,0,0,7.25,2.04
+LBRT,LIBERTY ENERGY INC A A,"instrument=LBRT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.53%,17.00,17.05,100,17.17,100,<empty>,0,0,0,34.478,14.7612
+LCID,LUCID GROUP INC,"instrument=LCID
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.13%,3.13,3.09,"2,261",3.13,"1,500","5,702",0,0,0,20.31,2.37
+LEU,CENTRUS ENERGY CORP A,"instrument=LEU
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.32%,109.77,109.47,1,110.02,13,"2,179",0,0,0,401.995,108.67
+LHX,L3HARRIS TECHNOLOGIE,"instrument=LHX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.06%,243.99,243.44,20,244.71,32,221,0,0,0,379.23,232.3427
+LITE,LUMENTUM HLDGS INC,"instrument=LITE
+trend=[GREEN, BRIGHT_GREEN, RED, GREEN_OVER_RED, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, RED, RED_OVER_GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.32%,823.47,823.31,50,824.52,40,"34,520",0,0,0,1143.00,152.54
+LITX,INVESTMENT MANAGERS SER TR II TRADR 2X LONG LITE DAILY ETF,"instrument=LITX
+trend=[RED, GREEN, RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, RED, RED, BRIGHT_GREEN, RED]
+headPointer=3
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-2.80%,23.29,23.25,201,23.30,984,"67,208",0,0,0,62.7899,9.23233333
+LLY,ELI LILLY AND CO,"instrument=LLY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.62%,1248.00,1247.00,1,1248.00,1,"1,097",0,0,0,1292.65,793.82
+LMND,LEMONADE INC,"instrument=LMND
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.90%,43.54,43.20,50,43.46,277,58,0,0,0,99.90,42.70
+LMT,LOCKHEED MARTIN CORP,"instrument=LMT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.04%,548.02,547.65,40,548.99,5,782,0,0,0,692.00,437.25
+LRCX,LAM RESH CORP,"instrument=LRCX
+trend=[null, GREEN, RED, GREEN, GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.64%,270.45,269.62,127,270.37,19,"22,685",0,0,0,438.50,135.50
+LULU,LULULEMON ATHLETICA,"instrument=LULU
+trend=[null, RED, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.23%,97.98,97.88,1,98.08,1,"3,187",0,0,0,225.98,90.38
+LUNR,INTUITIVE MACHS INC A,"instrument=LUNR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.84%,10.65,10.65,400,10.70,125,"25,638",0,0,0,46.75,7.78
+LWLG,LIGHTWAVE LOGIC INC,"instrument=LWLG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.52%,3.90,3.87,700,3.94,"1,039","3,784",0,0,0,18.709,2.84
+MA,MASTERCARD INC Class A,"instrument=MA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.28%,618.14,617.49,28,618.88,6,202,0,0,0,622.49,464.52
+MARA,MARA HLDGS INC,"instrument=MARA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.07%,7.38,7.38,472,7.39,270,"59,223",0,0,0,21.04,6.66
+MCD,MCDONALDS CORP,"instrument=MCD
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.35%,243.51,243.51,40,243.60,50,"7,333",0,0,0,341.75,229.20
+MDA,MDA SPACE LTD,"instrument=MDA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,28.10,27.67,100,28.34,270,85,0,0,0,49.37,23.23
+MDB,MONGODB INC Class A,"instrument=MDB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.67%,346.36,345.87,6,347.64,27,"5,063",0,0,0,473.10,215.68
+META,META PLATFORMS INC A,"instrument=META
+trend=[RED, BRIGHT_GREEN, BRIGHT_GREEN, RED, BRIGHT_GREEN, BRIGHT_RED, GREEN, GREEN, GREEN, GREEN]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.11%,706.24,705.95,4,706.26,52,"30,967",0,0,0,779.8192,520.26
+METU,Direxion Daily META Bull 2X ETF,"instrument=METU
+trend=[null, GREEN, RED, GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.24%,28.70,28.69,518,28.75,435,"24,990",0,0,0,44.89,16.85
+MMM,3M CO,"instrument=MMM
+trend=[null, GREEN_OVER_RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+3.09%,167.01,167.01,50,167.40,70,"7,903",0,0,0,184.895,139.34
+MNDY,MONDAY COM LTD,"instrument=MNDY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.34%,93.10,90.06,18,94.91,17,267,0,0,0,210.49,57.50
+MO,ALTRIA GROUP INC,"instrument=MO
+trend=[null, RED, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.53%,74.48,74.29,16,74.50,20,"1,510",0,0,0,77.06,54.70
+MOBX,MOBIX LABS INC A,"instrument=MOBX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.67%,.7502,.7502,484,.8110,21,"1,790",0,0,0,13.3000,.6365
+MP,MP MATLS CORP A,"instrument=MP
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.26%,39.05,38.96,32,39.05,333,"9,720",0,0,0,80.885,37.81
+MPC,MARATHON PETE CORP,"instrument=MPC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.70%,477.00,476.50,56,478.17,21,155,0,0,0,493.98,161.93
+MPL,DEFIANCE DAILY TARGET 2X LONG MP ETF NEW,"instrument=MPL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",<empty>,15.9495,15.23,<empty>,16.01,<empty>,"20,736",<empty>,<empty>,<empty>,54.99,6.96
+MPWR,MONOLITHIC PWR SYS I,"instrument=MPWR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.32%,1249.61,1238.59,4,1266.98,57,148,0,0,0,1714.0899,833.1801
+MRK,MERCK & CO. INC.,"instrument=MRK
+trend=[null, GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.45%,144.28,144.12,10,144.27,100,803,0,0,0,156.9199,82.01
+MRNA,MODERNA INC,"instrument=MRNA
+trend=[null, GREEN, GREEN, BRIGHT_RED, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.65%,228.37,227.92,5,228.46,105,"28,934",0,0,0,242.29,22.28
+MRVL,MARVELL TECHNOLOGY I,"instrument=MRVL
+trend=[GREEN, BRIGHT_RED, BRIGHT_GREEN, GREEN, GREEN, RED, RED, GREEN, GREEN, BRIGHT_GREEN]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.94%,234.87,234.79,60,234.88,1,"158,845",0,0,0,329.88,70.685
+MS,MORGAN STANLEY,"instrument=MS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.28%,178.97,178.86,1,179.17,60,472,0,0,0,232.25,152.80
+MSFL,GraniteShares 2x Long MSFT Daily ETF,"instrument=MSFL
+trend=[RED, GREEN, RED, GREEN, GREEN, RED, GREEN, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN]
+headPointer=4
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.94%,28.49,28.45,200,28.54,800,"2,683",0,0,0,36.105,12.955
+MSFT,MICROSOFT CORP,"instrument=MSFT
+trend=[null, BRIGHT_GREEN, BRIGHT_RED, GREEN, BRIGHT_GREEN, RED, GREEN, GREEN, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.35%,535.41,535.44,63,535.77,58,"19,877",0,0,0,553.72,349.20
+MSOS,ADVISORSHARES TR PURE US CANNABIS ETF,"instrument=MSOS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,3.81,3.82,600,3.92,358,<empty>,0,0,0,7.25,2.96
+MSOX,ADVISORSHARES TR MSOS DAILY LEVERAGED ETF NEW,"instrument=MSOX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.59%,1.71,1.71,102,1.78,"2,000",50,0,0,0,11.88,1.62
+MSTR,STRATEGY INC A,"instrument=MSTR
+trend=[null, RED, RED, BRIGHT_GREEN, GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.02%,135.99,135.90,60,136.03,85,"227,609",0,0,0,305.9899,81.81
+MSTX,DEFIANCE DAILY TARGET 2X LONG MSTR ETF,"instrument=MSTX
+trend=[null, RED, GREEN, RED, RED, GREEN, null, null, null, null]
+headPointer=5
+separatorPointer=5
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.36%,13.77,13.80,"2,200",13.88,"3,600","199,125",0,0,0,184.05,6.72
+MU,MICRON TECHNOLOGY IN,"instrument=MU
+trend=[GREEN, GREEN, GREEN, BRIGHT_RED, GREEN_OVER_RED, RED, GREEN, RED_OVER_GREEN, BRIGHT_RED, RED_OVER_GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.45%,891.78,891.54,47,891.78,925,"325,027",0,0,0,1255.00,192.40
+MUU,DREXN DLY MU BULL,"instrument=MUU
+trend=[BRIGHT_RED, GREEN, GREEN, BRIGHT_RED, BRIGHT_GREEN, GREEN, GREEN, BRIGHT_RED, BRIGHT_GREEN, RED]
+headPointer=6
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-3.06%,25.01,24.99,"1,391",25.02,"3,500","519,576",0,0,0,62.64,2.518
+MVST,MICROVAST HLDGS INC,"instrument=MVST
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.63%,.5100,.5001,400,.5100,119,81,0,0,0,6.0300,.5033
+NB,NIOCORP DEVS LTD,"instrument=NB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.33%,3.06,3.05,30,3.13,36,235,0,0,0,9.10,3.03
+NBIS,NEBIUS GROUP N V A A,"instrument=NBIS
+trend=[BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_RED, GREEN, GREEN, RED, RED, BRIGHT_GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-2.16%,166.56,166.55,100,166.74,50,"287,913",0,0,0,299.86,73.52
+NEBX,INVESTMENT MGRS SER TR II TRADR 2X LONG NBIS DAILY ETF,"instrument=NEBX
+trend=[null, GREEN_OVER_RED, RED, GREEN, GREEN, RED, GREEN, RED, GREEN, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-4.31%,12.64,12.53,"3,200",12.67,"1,900","99,276",0,0,0,70.7688,6.61618967
+NEE,NEXTERA ENERGY INC,"instrument=NEE
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.15%,78.29,78.28,136,78.38,200,"1,278",0,0,0,98.75,74.41
+NET,CLOUDFLARE INC A,"instrument=NET
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.36%,296.51,295.93,100,296.97,31,"1,626",0,0,0,370.35,158.83
+NFLU,T-REX 2X Long NFLX Daily Target ETF,"instrument=NFLU
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.89%,14.66,14.62,"1,000",14.69,"1,200",203,0,0,0,60.75,13.33
+NFLX,NETFLIX INC,"instrument=NFLX
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.30%,70.06,70.03,12,70.05,5,"70,008",0,0,0,124.85999,65.08
+NIO,NIO INC A ADR,"instrument=NIO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,3.39,3.39,"5,830",3.40,"4,424","143,071",0,0,0,7.54,3.36
+NKE,NIKE INC Class B,"instrument=NKE
+trend=[null, RED, BRIGHT_RED, GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.54%,37.41,37.40,740,37.44,346,"31,613",0,0,0,70.44,31.97
+NOC,NORTHROP GRUMMAN COR,"instrument=NOC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.07%,511.03,512.01,3,515.39,49,76,0,0,0,774.00,470.06
+NOK,NOKIA CORP Series A ADR,"instrument=NOK
+trend=[null, GREEN, GREEN, RED, GREEN, RED, null, null, null, null]
+headPointer=5
+separatorPointer=5
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.22%,9.06,9.04,"2,130",9.06,700,"224,921",0,0,0,17.45,5.45
+NOW,SERVICENOW INC,"instrument=NOW
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.43%,145.99,145.99,121,146.16,21,"19,557",0,0,0,192.96598,81.24
+NVDA,NVIDIA CORP,"instrument=NVDA
+trend=[BRIGHT_GREEN, RED, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, RED, GREEN, GREEN, GREEN, RED]
+headPointer=4
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.11%,217.33,217.26,159,217.38,20,"413,778",0,0,0,243.37,164.27
+NVDL,GraniteShares 2x Long NVDA Daily ETF,"instrument=NVDL
+trend=[BRIGHT_GREEN, RED, BRIGHT_GREEN, RED_OVER_GREEN, GREEN, GREEN, GREEN_OVER_RED, GREEN, RED, GREEN]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.15%,32.92,32.91,200,32.96,45,"58,636",0,0,0,43.27333333,21.53666667
+NVO,NOVO-NORDISK A S ADR,"instrument=NVO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.34%,38.55,38.55,6,38.57,134,"7,848",0,0,0,64.16,35.12
+NVTS,NAVITAS SEMICONDUCTO,"instrument=NVTS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.04%,8.54,8.50,"2,438",8.55,"3,997","57,048",0,0,0,34.17,6.85
+NWPX,NWPX INFRASTRUCTURE,"instrument=NWPX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,97.63,97.31,17,98.23,40,<empty>,0,0,0,152.03,52.76
+OKLL,Tidal Trust II Defiance Daily Target 2x Long OKLO ETF,"instrument=OKLL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-2.24%,4.81,4.81,700,4.85,"1,600","15,633",0,0,0,538.65,4.773
+OKLO,OKLO INC A,"instrument=OKLO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.99%,26.97,26.93,217,27.02,112,"47,071",0,0,0,154.45,26.82
+OKTA,OKTA INC Class A,"instrument=OKTA
+trend=[null, BRIGHT_GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.87%,188.27,188.18,115,189.41,26,"4,981",0,0,0,235.00,62.66
+ON,ON SEMICONDUCTOR COR,"instrument=ON
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.23%,72.95,72.32,6,72.72,139,"5,885",0,0,0,134.92,44.56
+ONDS,ONDAS INC,"instrument=ONDS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.50%,6.03,6.02,"1,384",6.04,801,"108,229",0,0,0,15.28,4.95
+OPEN,OPENDOOR TECHNOLOGIE A,"instrument=OPEN
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-3.41%,1.98,1.97,"3,075",1.98,"6,182","70,651",0,0,0,9.455,1.93
+ORCL,ORACLE CORP,"instrument=ORCL
+trend=[GREEN, GREEN, RED, GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_RED, RED, RED, BRIGHT_GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.32%,129.17,129.09,149,129.18,82,"88,423",0,0,0,287.19,114.50
+ORCX,DEFIANCE DAILY TARGET 2X LONG ORCL ETF,"instrument=ORCX
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.31%,15.82,15.86,"1,895",15.92,647,"29,444",0,0,0,121.6158,13.71
+OSCR,OSCAR HEALTH INC A,"instrument=OSCR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.15%,32.59,32.53,16,32.60,1,167,0,0,0,35.01,10.69
+OXY,OCCIDENTAL PETE CORP,"instrument=OXY
+trend=[null, BRIGHT_RED, GREEN, RED, BRIGHT_RED, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.35%,62.94,62.85,200,62.99,250,"12,118",0,0,0,67.45,38.80
+PANW,PALO ALTO NETWORKS I,"instrument=PANW
+trend=[null, GREEN, BRIGHT_GREEN, BRIGHT_GREEN, RED, RED, RED, BRIGHT_GREEN, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.07%,347.18,346.60,2,347.52,50,"6,814",0,0,0,432.325,139.5706
+PATH,UIPATH INC Class A,"instrument=PATH
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.08%,13.11,13.10,"1,975",13.13,24,"3,899",0,0,0,19.84,9.2002
+PBR,PETROLEO BRASILEIRO ADR,"instrument=PBR
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.47%,25.68,25.60,111,25.67,"1,400",860,0,0,0,26.115,11.43
+PDD,PDD HOLDINGS INC ADR ADR,"instrument=PDD
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.29%,81.15,81.07,41,81.19,60,"11,634",0,0,0,139.41,71.94
+PEP,PEPSICO INC,"instrument=PEP
+trend=[null, GREEN, BRIGHT_RED, GREEN, GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.64%,134.43,134.23,17,134.49,100,"18,380",0,0,0,171.48,123.47
+PFE,PFIZER INC,"instrument=PFE
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.14%,29.48,29.48,66,29.52,60,"11,239",0,0,0,29.88,23.62
+PG,PROCTER & GAMBLE CO,"instrument=PG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.42%,158.35,158.22,13,158.42,100,501,0,0,0,167.25,137.62
+PGNY,PROGYNY INC,"instrument=PGNY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,27.84,27.63,73,28.18,60,<empty>,0,0,0,33.065,16.10
+PGY,PAGAYA TECHNOLOGIES Class A,"instrument=PGY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.23%,17.47,17.47,497,17.58,477,184,0,0,0,31.06,10.40
+PINS,PINTEREST INC A,"instrument=PINS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.45%,22.44,22.38,600,22.48,700,32,0,0,0,35.42,13.84
+PL,PLANET LABS PBC A,"instrument=PL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.81%,13.48,13.46,400,13.53,847,"24,207",0,0,0,51.76,10.52
+PLAB,PHOTRONICS INC,"instrument=PLAB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.23%,28.00,27.32,6,28.51,58,7,0,0,0,56.00,20.05
+PLL,PIEDMONT LITHIUM INC,"instrument=PLL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",<empty>,7.39,7.30,<empty>,7.33,<empty>,<empty>,<empty>,<empty>,<empty>,15.44,5.15
+PLTR,PALANTIR TECHNOLOGIE Class A,"instrument=PLTR
+trend=[null, RED, BRIGHT_GREEN, GREEN, BRIGHT_GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,194.15,194.14,168,194.33,125,"50,167",0,0,0,212.9399,106.37
+PLTU,DRXNDLY PLTR BUL 2X,"instrument=PLTU
+trend=[null, GREEN, BRIGHT_GREEN, GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.02%,59.64,59.60,100,59.80,250,"9,997",0,0,0,128.035,21.04
+PLUG,PLUG PWR INC,"instrument=PLUG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,1.37,1.37,923,1.38,"3,224","64,443",0,0,0,4.33,1.35
+PM,PHILIP MORRIS INTL I,"instrument=PM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.73%,202.52,201.63,49,202.53,70,117,0,0,0,210.45,142.11
+POET,POET TECHNOLOGIES IN,"instrument=POET
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.36%,5.50,5.47,"1,500",5.50,"1,703","37,852",0,0,0,20.81,3.87
+PONY,PONY AI INC ADR,"instrument=PONY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.00%,5.06,5.07,800,5.09,501,"33,774",0,0,0,22.46,4.90
+POWL,POWELL INDS INC,"instrument=POWL
+trend=[null, RED, RED, RED, RED, RED, RED, RED, RED, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.98%,164.14,164.10,52,166.30,381,277,0,0,0,328.00,92.59
+PPIH,PERMA-PIPE INTL HLDG,"instrument=PPIH
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,28.15,28.25,4,29.11,75,<empty>,0,0,0,36.72,23.0101
+PSLV,SPROTT PHYSICAL SILVER ETV,"instrument=PSLV
+trend=[null, GREEN, GREEN, GREEN, RED, GREEN, null, null, null, null]
+headPointer=5
+separatorPointer=5
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.49%,18.57,18.58,"14,338",18.63,90,"12,873",0,0,0,38.1255,15.06
+PWR,QUANTA SVCS INC,"instrument=PWR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.07%,617.99,614.20,24,618.00,150,323,0,0,0,788.75,404.505
+PYPL,PAYPAL HLDGS INC,"instrument=PYPL
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.11%,56.57,56.48,75,56.58,114,"1,772",0,0,0,79.215,38.46
+QBTS,D-WAVE QUANTUM INC,"instrument=QBTS
+trend=[null, BRIGHT_GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.51%,11.77,11.73,645,11.77,700,"66,976",0,0,0,37.62,11.3501
+QCOM,QUALCOMM INC,"instrument=QCOM
+trend=[GREEN, BRIGHT_GREEN, RED, RED, RED, GREEN, GREEN, RED, GREEN, GREEN]
+headPointer=7
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.25%,173.10,173.00,865,173.06,290,"28,033",0,0,0,259.92,121.99
+QQQ,INVESCO QQQ TR,"instrument=QQQ
+trend=[BRIGHT_GREEN, BRIGHT_GREEN, GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, GREEN, BRIGHT_GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.01%,718.45,718.40,37,718.45,800,"330,511",0,0,0,762.86,555.60
+QS,QUANTUMSCAPE CORP A,"instrument=QS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.39%,3.91,3.88,115,3.91,"6,701","27,751",0,0,0,18.5599,3.80
+QUBT,QUANTUM COMPUTING IN,"instrument=QUBT
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.16%,6.41,6.40,10,6.42,800,"8,479",0,0,0,17.40,6.08
+RACE,FERRARI N V NEW,"instrument=RACE
+trend=[null, RED, GREEN, RED, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.59%,396.56,391.39,255,399.39,183,17,0,0,0,437.15,312.51
+RANI,RANI THERAPEUTICS HL A,"instrument=RANI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.05%,.6500,.6500,323,.7453,100,"1,026",0,0,0,3.8700,.6126
+RBLX,ROBLOX CORP A,"instrument=RBLX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.47%,50.51,50.49,4,50.70,109,"3,986",0,0,0,135.00,33.88
+RBRK,RUBRIK INC Class A,"instrument=RBRK
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.30%,113.07,112.87,73,113.41,2,389,0,0,0,127.90,42.25
+RC,READY CAP CORP REIT,"instrument=RC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.86%,1.17,1.13,900,1.17,"3,000",64,0,0,0,3.24,1.06
+RCAT,RED CAT HLDGS INC,"instrument=RCAT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.85%,4.64,4.64,853,4.66,"1,300","9,608",0,0,0,18.78,4.41
+RCAX,Tidal Trust II Defiance Daily Target 2x Long RCAT ETF,"instrument=RCAX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.63%,4.15,4.12,200,4.14,750,"3,679",0,0,0,158.10,3.7823
+RDDT,REDDIT INC Class A,"instrument=RDDT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.09%,155.00,154.92,11,155.29,123,"1,233",0,0,0,263.4999,119.27
+RDW,REDWIRE CORP,"instrument=RDW
+trend=[null, GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.35%,8.43,8.42,110,8.43,205,"33,640",0,0,0,26.64,4.87
+REGN,REGENERON PHARMACEUT,"instrument=REGN
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.47%,785.69,783.92,9,787.02,24,5,0,0,0,859.34,572.7454
+RGC,REGENCELL BIOSCIENCE,"instrument=RGC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.19%,10.17,10.15,85,10.33,2,"6,269",0,0,0,69.00,4.51
+RGTI,RIGETTI COMPUTING IN,"instrument=RGTI
+trend=[null, GREEN, BRIGHT_RED, BRIGHT_GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.26%,11.64,11.61,131,11.65,100,"58,602",0,0,0,44.52,11.11
+RIVN,RIVIAN AUTOMOTIVE IN Class A,"instrument=RIVN
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,12.34,12.32,"2,100",12.34,"1,500","19,548",0,0,0,22.69,12.16
+RKLB,ROCKET LAB CORP A,"instrument=RKLB
+trend=[null, GREEN, RED, GREEN, RED, RED, GREEN, GREEN, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.39%,51.16,51.13,14,51.18,100,"167,152",0,0,0,150.9999,37.57
+RKLX,DEFDLY 2XLNG RKLB,"instrument=RKLX
+trend=[null, RED, GREEN, RED, GREEN, RED, GREEN, null, null, null]
+headPointer=6
+separatorPointer=6
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.01%,8.80,8.77,"2,700",8.83,200,"82,443",0,0,0,114.83,8.155
+RKT,ROCKET COMPANIES CLA A,"instrument=RKT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.47%,10.76,10.73,77,10.79,1,"1,051",0,0,0,24.36,10.18
+RMBS,RAMBUS INC DEL,"instrument=RMBS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.53%,91.24,91.10,6,91.77,18,"1,872",0,0,0,174.10,77.89
+ROBN,T-Rex 2X Long HOOD Daily Target ETF,"instrument=ROBN
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.03%,22.96,22.97,"1,000",23.15,200,"6,117",0,0,0,112.99,14.49
+ROKU,ROKU INC Class A,"instrument=ROKU
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.48%,156.29,154.96,40,156.27,30,27,0,0,0,159.89,78.53
+RR,RICHTECH ROBOTICS IN B,"instrument=RR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,1.26,1.25,"5,701",1.26,396,"10,599",0,0,0,6.42,1.26
+RTX,RTX CORP,"instrument=RTX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.53%,193.12,192.74,3,193.46,195,"3,664",0,0,0,226.884,166.74
+RUN,SUNRUN INC,"instrument=RUN
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,6.89,6.88,704,6.92,701,"3,312",0,0,0,21.95,6.865
+RXRX,RECURSION PHARMACEUT A,"instrument=RXRX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,3.61,3.60,155,3.62,"3,700","56,157",0,0,0,6.6983,2.77
+RXT,RACKSPACE TECHNOLOGY,"instrument=RXT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,2.74,2.74,700,2.77,130,885,0,0,0,8.60,.393
+RYCEF,ROLLS-ROYCE HOLDINGS,"instrument=RYCEF
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.61%,17.50,5.15,<empty>,26.62,<empty>,"15,973",17.75,17.764,17.26,21.50,13.075
+S,SENTINELONE INC Class A,"instrument=S
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.05%,21.72,21.72,306,21.83,100,566,0,0,0,26.50,11.81
+SATS,"Strive, Inc. 15% PFD","instrument=SATS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",<empty>,103.30,103.30,<empty>,104.22,<empty>,<empty>,<empty>,<empty>,<empty>,147.252,26.04
+SBUX,STARBUCKS CORP,"instrument=SBUX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.17%,98.04,97.94,166,98.09,356,"8,946",0,0,0,110.51,77.99
+SCCO,SOUTHERN COPPER CORP,"instrument=SCCO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.88%,200.00,199.64,30,201.00,55,115,0,0,0,223.885,119.25
+SCHW,CHARLES SCHWAB CORP,"instrument=SCHW
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.59%,90.11,89.86,100,90.12,154,612,0,0,0,114.53,83.96
+SE,SEA LTD A ADR,"instrument=SE
+trend=[null, GREEN_OVER_RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.96%,89.32,89.10,15,89.40,62,"37,127",0,0,0,171.09,77.05
+SEDG,SOLAREDGE TECHNOLOGI,"instrument=SEDG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.19%,31.00,30.78,100,31.03,109,294,0,0,0,81.25,28.21
+SFM,SPROUTS FMRS MKT INC,"instrument=SFM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.67%,64.69,64.12,70,64.77,26,128,0,0,0,111.83,61.88
+SHEL,SHELL PLC ADR,"instrument=SHEL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.02%,104.80,104.77,100,105.22,100,97,0,0,0,106.68,68.625
+SHLS,SHOALS TECHNOLOGIES A,"instrument=SHLS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.37%,7.21,7.27,36,7.75,258,<empty>,0,0,0,13.1799,5.43
+SIDU,SIDUS SPACE INC A,"instrument=SIDU
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.85%,1.18,1.17,426,1.18,20,"2,271",0,0,0,6.79,.6278
+SIEGY,SIEMENS A G ADR,"instrument=SIEGY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.71%,147.50,109.80,<empty>,175.57,<empty>,"163,690",148.94,149.18,147.45,169.465,115.555
+SILJ,Amplify Junior Silver Miners ETF,"instrument=SILJ
+trend=[null, GREEN, RED, GREEN, RED, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.94%,25.20,25.26,100,25.55,200,"1,087",0,0,0,41.10,20.46
+SIMO,SILICON MOTION TECHN ADR,"instrument=SIMO
+trend=[null, RED_OVER_GREEN, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.03%,215.00,214.62,3,217.43,1,366,0,0,0,355.00,79.76
+SIVEF,SIVERS SEMICONDUCTOR,"instrument=SIVEF
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.44%,2.26,2.20,<empty>,2.33,<empty>,"1,576,434",2.40,2.44,2.26,11.25,.70
+SKHY,SK HYNIX INC ADR,"instrument=SKHY
+trend=[GREEN, GREEN, RED, RED, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, RED, BRIGHT_RED, RED]
+headPointer=7
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-3.43%,137.97,137.92,100,138.00,2,"1,101,070",0,0,0,199.865,124.8001
+SLDP,SOLID PWR INC A,"instrument=SLDP
+trend=[null, RED, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,1.95,1.94,"5,232",1.96,"2,389","44,405",0,0,0,8.86,1.93
+SLI,STANDARD LITHIUM LTD,"instrument=SLI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,1.47,1.41,700,1.50,500,<empty>,0,0,0,6.00,1.32
+SLNH,SOLUNA HOLDINGS INC,"instrument=SLNH
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.61%,.5944,.5944,514,.5980,"3,507","3,388",0,0,0,4.0400,.5799
+SLV,iShares Silver Trust,"instrument=SLV
+trend=[null, RED, GREEN, GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.70%,51.90,51.89,"1,164",51.91,"6,625","260,237",0,0,0,109.83,41.70
+SMCI,SUPER MICRO COMPUTER,"instrument=SMCI
+trend=[null, BRIGHT_GREEN, RED, BRIGHT_RED, GREEN, GREEN, RED, null, null, null]
+headPointer=6
+separatorPointer=6
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.72%,31.87,31.85,335,31.90,205,"121,238",0,0,0,55.3499,19.48
+SMCX,DEFIANCE DAILY TARGET 2X LONG SMCI ETF,"instrument=SMCX
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.38%,7.88,7.81,"4,674",7.91,710,"41,174",0,0,0,98.72,5.46
+SMR,NUSCALE PWR CORP A,"instrument=SMR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.70%,5.65,5.64,"1,200",5.65,207,"70,240",0,0,0,45.54,5.44
+SNDK,SANDISK CORP,"instrument=SNDK
+trend=[BRIGHT_RED, BRIGHT_RED, BRIGHT_RED, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_GREEN, RED_OVER_GREEN, GREEN]
+headPointer=9
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.62%,1348.87,1348.80,3,1349.45,40,"172,781",0,0,0,2354.3899,142.76
+SNDL,SNDL INC,"instrument=SNDL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.31%,1.2589,1.2400,114,1.2500,488,<empty>,0,0,0,2.3600,1.1300
+SNOW,SNOWFLAKE INC Class A,"instrument=SNOW
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.47%,313.87,313.87,1,314.94,200,"2,153",0,0,0,384.56,118.30
+SNPS,SYNOPSYS INC,"instrument=SNPS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.04%,454.38,452.82,67,454.92,50,551,0,0,0,539.48,362.55
+SNXX,INVESTMENT MANAGERS SER TR II TRADR 2X LONG SNDK DAILY ETF,"instrument=SNXX
+trend=[null, GREEN, GREEN, RED, GREEN, RED, RED, GREEN, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-3.26%,9.78,9.77,"3,120",9.78,705,"2,123,569",0,0,0,49.3399,3.13875
+SO,SOUTHERN CO,"instrument=SO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.47%,89.69,89.37,121,89.69,100,44,0,0,0,99.58,81.69
+SOFI,SOFI TECHNOLOGIES IN,"instrument=SOFI
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,14.30,14.28,438,14.30,"10,392","100,636",0,0,0,32.73,13.86
+SOLZ,SOLANA ETF,"instrument=SOLZ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.01%,10.40,10.36,"14,100",10.41,"14,100",363,0,0,0,21.3199,6.1699
+SOUX,DEFIANCE DAILY TARGET 2X LONG SOUN ETF,"instrument=SOUX
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+1.59%,4.80,4.68,700,4.77,400,"1,919",0,0,0,236.00,4.34
+SOXL,Direxion Daily Semicondct Bull 3X ETF,"instrument=SOXL
+trend=[RED, BRIGHT_RED, BRIGHT_GREEN, RED_OVER_GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, GREEN]
+headPointer=9
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.95%,96.73,96.69,121,96.75,38,"6,516,446",0,0,0,302.00,28.12
+SOXS,DIREXION DAILY SEMICONDUCTOR BEAR 3X ETF,"instrument=SOXS
+trend=[GREEN, GREEN, BRIGHT_RED, BRIGHT_RED, BRIGHT_RED, BRIGHT_RED, RED, GREEN, BRIGHT_GREEN, BRIGHT_RED]
+headPointer=6
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+1.95%,47.54,47.54,210,47.55,"1,000","6,124,551",0,0,0,1030.00,28.46
+SOXX,iShares Semiconductor ETF,"instrument=SOXX
+trend=[BRIGHT_GREEN, GREEN, RED_OVER_GREEN, BRIGHT_RED, BRIGHT_GREEN, RED, GREEN, RED_OVER_GREEN, RED, BRIGHT_GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.63%,498.77,498.71,28,498.86,6,"86,837",0,0,0,655.95,260.44
+SPCE,VIRGIN GALACTIC HLDG Class A,"instrument=SPCE
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+2.56%,2.40,2.38,26,2.43,900,"1,366",0,0,0,8.90,2.13
+SPCX,SPACE EX TECH SPACEX A,"instrument=SPCX
+trend=[BRIGHT_GREEN, BRIGHT_GREEN, GREEN, BRIGHT_GREEN, BRIGHT_RED, GREEN, BRIGHT_GREEN, GREEN, GREEN, BRIGHT_RED]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.20%,147.67,147.66,250,147.68,5,"418,534",0,0,0,225.64,104.83
+SPIR,SPIRE GLOBAL INC A,"instrument=SPIR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.23%,8.75,8.75,518,8.78,1,96,0,0,0,25.93,6.60
+SPXL,Direxion Daily S&P500 Bull 3X ETF,"instrument=SPXL
+trend=[null, BRIGHT_GREEN, GREEN, GREEN_OVER_RED, GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.49%,285.00,285.28,148,285.35,827,"38,133",0,0,0,303.18,168.04
+SPXU,PROSHARES TR ULTRAPRO SHORT S&P 500 ETF,"instrument=SPXU
+trend=[null, BRIGHT_RED, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_RED, GREEN, RED, BRIGHT_RED, BRIGHT_RED, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.46%,34.27,34.24,"4,800",34.26,"2,900","26,133",0,0,0,62.85,32.375
+SPY,State Street SPDR S&P 500 ETF Trust,"instrument=SPY
+trend=[BRIGHT_GREEN, GREEN, RED, RED_OVER_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, RED, BRIGHT_GREEN, RED]
+headPointer=8
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.21%,768.07,768.05,532,768.14,600,"75,109",0,0,0,781.62,629.28
+SQQQ,PROSHARES ULTRAPRO SHORT QQQ,"instrument=SQQQ
+trend=[RED, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, RED, GREEN, BRIGHT_RED, BRIGHT_RED, BRIGHT_RED]
+headPointer=9
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.03%,37.53,37.52,"16,100",37.53,"6,500","1,990,708",0,0,0,90.715,31.42
+STI,SOLIDION TECHNOLOGY,"instrument=STI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.82%,4.48,4.41,61,4.54,100,162,0,0,0,46.00,2.94
+STT,STATE STR CORP,"instrument=STT
+trend=[null, RED, RED, RED, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,165.43,164.83,80,166.61,90,<empty>,0,0,0,195.93,111.63
+STX,SEAGATE TECHNOLOGY H,"instrument=STX
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.35%,651.89,650.75,44,652.46,4,"13,921",0,0,0,1145.00,209.00
+STZ,CONSTELLATION BRANDS Class A,"instrument=STZ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.37%,131.55,131.20,60,131.97,60,365,0,0,0,168.60,110.6016
+SUN,SUNOCO LP,"instrument=SUN
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,72.26,71.45,951,73.92,951,<empty>,0,0,0,80.22,49.98
+SWMR,SWARMER INC,"instrument=SWMR
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+3.02%,9.20,8.96,151,9.21,100,11,0,0,0,83.30,8.82
+SYM,SYMBOTIC INC A,"instrument=SYM
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.18%,39.08,38.96,202,39.33,468,"1,803",0,0,0,87.88,36.4708
+T,AT&T INC,"instrument=T
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.13%,23.23,23.22,166,23.29,100,"1,868",0,0,0,29.435,19.89
+TDY,TELEDYNE TECHNOLOGIE,"instrument=TDY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,619.76,617.36,28,622.42,8,1,0,0,0,697.67,483.02
+TEAM,ATLASSIAN CORP Class A,"instrument=TEAM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.30%,215.40,215.34,28,215.76,22,"1,022",0,0,0,223.6969,56.0101
+TEL,TE CONNECTIVITY PLC,"instrument=TEL
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.08%,212.17,212.24,50,213.38,76,967,0,0,0,252.56,190.27
+TEM,TEMPUS AI INC A,"instrument=TEM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.48%,64.03,64.04,46,64.15,97,"16,732",0,0,0,93.46,40.77
+TER,TERADYNE INC,"instrument=TER
+trend=[null, GREEN, RED, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.44%,330.69,330.75,24,331.57,50,"4,568",0,0,0,487.91,135.83
+TLRY,TILRAY BRANDS INC,"instrument=TLRY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.33%,3.04,3.03,"1,024",3.07,1,"1,166",0,0,0,15.6995,3.00
+TMDX,TRANSMEDICS GROUP IN,"instrument=TMDX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.35%,71.85,71.61,70,72.00,20,63,0,0,0,156.00,60.105
+TMO,THERMO FISHER SCIENT,"instrument=TMO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.07%,679.87,680.09,58,683.25,2,33,0,0,0,704.00,435.27
+TMUS,T-MOBILE US INC,"instrument=TMUS
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.33%,156.61,156.55,100,156.60,2,"1,501",0,0,0,230.51,147.90
+TPB,TURNING PT BRANDS IN,"instrument=TPB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,61.59,61.03,60,62.18,60,<empty>,0,0,0,146.90,54.17
+TQQQ,ProShares UltraPro QQQ,"instrument=TQQQ
+trend=[GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_RED, GREEN, RED]
+headPointer=3
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.01%,70.65,70.65,"6,700",70.67,"8,832","1,951,016",0,0,0,88.09,37.32
+TRON,TRON INC,"instrument=TRON
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.82%,1.12,1.08,400,1.11,486,<empty>,0,0,0,3.0927,1.05
+TSAT,TELESAT CORP Class A,"instrument=TSAT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.85%,44.50,43.29,"1,322",46.49,"1,322",<empty>,0,0,0,61.5399,23.01
+TSEM,TOWER SEMICONDUCTOR,"instrument=TSEM
+trend=[null, BRIGHT_GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.15%,198.00,197.47,8,198.95,21,"2,229",0,0,0,319.94,71.64
+TSLA,TESLA INC,"instrument=TSLA
+trend=[RED, GREEN, GREEN, RED, GREEN, GREEN, RED, BRIGHT_GREEN, RED, GREEN]
+headPointer=7
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.29%,367.00,366.95,7,367.00,6,"152,157",0,0,0,498.83,297.38
+TSLL,Direxion Daily TSLA Bull 2X Shares,"instrument=TSLL
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.63%,9.51,9.51,"11,694",9.52,"2,610","361,976",0,0,0,23.74,6.695
+TSM,TAIWAN SEMICONDUCTOR ADR,"instrument=TSM
+trend=[GREEN, BRIGHT_GREEN, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, GREEN, GREEN, RED, GREEN, GREEN]
+headPointer=2
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.50%,418.10,417.97,64,418.53,24,"58,653",0,0,0,487.47,266.82
+TTD,THE TRADE DESK INC Class A,"instrument=TTD
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.33%,12.30,12.27,4,12.31,733,"4,678",0,0,0,55.11,11.62
+TTMI,TTM TECHNOLOGIES INC,"instrument=TTMI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.87%,98.24,98.00,2,98.95,17,"3,746",0,0,0,223.83,54.43
+TTWO,TAKE-TWO INTERACTIVE,"instrument=TTWO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.44%,205.82,205.81,20,206.26,7,"1,751",0,0,0,265.94,187.63
+TURB,TURBO ENERGY S A ADR,"instrument=TURB
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.01%,.8508,.8500,181,.9598,300,7,0,0,0,6.5000,.5701
+TXN,TEXAS INSTRS INC,"instrument=TXN
+trend=[null, RED, BRIGHT_GREEN, BRIGHT_GREEN, null, null, null, null, null, null]
+headPointer=3
+separatorPointer=3
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.07%,275.96,275.74,2,276.03,4,"2,370",0,0,0,334.03,152.73
+TXT,TEXTRON INC,"instrument=TXT
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.33%,76.45,75.95,5,76.63,105,112,0,0,0,101.57,71.87
+TYL,TYLER TECHNOLOGIES I,"instrument=TYL
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,360.09,358.53,2,362.59,2,<empty>,0,0,0,524.43,270.71
+U,UNITY SOFTWARE INC,"instrument=U
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.25%,40.48,40.46,69,40.84,68,"1,341",0,0,0,52.15,16.78
+UAMY,UNITED STS ANTIMONY,"instrument=UAMY
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+1.61%,3.15,3.13,600,3.19,"1,121","7,481",0,0,0,13.71,2.64
+UAVS,AGEAGLE AERIAL SYSTE,"instrument=UAVS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+2.56%,.7000,.6825,810,.7500,847,500,0,0,0,2.1800,.6541
+UBS,UBS GROUP AG,"instrument=UBS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,46.99,46.82,200,47.07,35,<empty>,0,0,0,55.985,36.295
+UCO,ProShares Ultra Bloomberg Crude Oil,"instrument=UCO
+trend=[null, BRIGHT_RED, RED, RED, GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.11%,63.90,63.83,140,63.91,"1,800","13,500",0,0,0,64.77,18.12
+UDOW,ProShares UltraPro Dow30,"instrument=UDOW
+trend=[null, GREEN, BRIGHT_GREEN, BRIGHT_GREEN, GREEN, BRIGHT_GREEN, GREEN, RED, null, null]
+headPointer=7
+separatorPointer=7
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.81%,67.03,67.14,"1,928",67.17,715,"7,222",0,0,0,79.2619,46.25
+UEC,URANIUM ENERGY CORP,"instrument=UEC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.89%,7.82,7.83,"1,300",7.86,246,"8,308",0,0,0,20.34,7.27
+UHS,UNIVERSAL HEALTH SVC B,"instrument=UHS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.01%,182.28,178.17,9,182.28,1,5,0,0,0,246.325,140.08
+ULTA,ULTA BEAUTY INC,"instrument=ULTA
+trend=[null, RED_OVER_GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.01%,591.56,590.97,16,593.18,16,<empty>,0,0,0,714.9699,443.60
+UMAC,UNUSUAL MACHS INC NE Equity,"instrument=UMAC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.61%,16.30,16.29,100,16.44,100,534,0,0,0,34.9264,7.245
+UNH,UNITEDHEALTH GROUP I,"instrument=UNH
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.66%,409.57,409.56,31,410.02,40,"11,411",0,0,0,461.62,255.965
+UNX,Tradr 2X Long U Daily ETF,"instrument=UNX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,20.8055,19.97,102,22.49,102,<empty>,0,0,0,68.25,4.5925
+UPS,UNITED PARCEL SVC IN Class B,"instrument=UPS
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.33%,97.78,97.60,100,97.78,338,211,0,0,0,122.41,86.30
+UPST,UPSTART HLDGS INC,"instrument=UPST
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.17%,23.29,23.24,20,23.34,202,"2,231",0,0,0,55.22,22.21
+UPSX,INVESTMENT MANAGERS SER TR II TRADR 2X LONG UPST DAILY ETF,"instrument=UPSX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,8.67,8.64,300,8.71,100,340,0,0,0,88.55,7.9974
+URTY,ProShares UltraPro Russell2000,"instrument=URTY
+trend=[null, GREEN, GREEN, GREEN, GREEN, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.63%,62.13,61.63,400,62.22,400,745,0,0,0,89.85,43.329
+USO,United States Oil,"instrument=USO
+trend=[BRIGHT_GREEN, GREEN, RED, GREEN, BRIGHT_RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_RED, RED, RED]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.19%,160.50,160.48,700,160.53,"1,000","52,801",0,0,0,163.3499,65.985
+UUUU,ENERGY FUELS INC,"instrument=UUUU
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.49%,8.20,8.16,665,8.21,"1,001","8,797",0,0,0,27.90,7.805
+UVIX,2X LONG VIX FUTURES ETF,"instrument=UVIX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+1.90%,37.50,37.44,144,37.69,600,"73,580",0,0,0,273.80,32.32
+UVXY,PROSHARES TR II ULTRA VIX SHORT TERM FUTURES ETF,"instrument=UVXY
+trend=[GREEN, RED, RED, RED, RED, RED, GREEN, RED, BRIGHT_GREEN, BRIGHT_RED]
+headPointer=3
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+1.32%,17.61,17.54,"3,950",17.58,180,"130,930",0,0,0,68.4763,15.685
+V,VISA INC A,"instrument=V
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.17%,403.61,403.83,43,404.14,41,"2,740",0,0,0,404.742,293.89
+VELO,VELO3D INC,"instrument=VELO
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.59%,6.71,6.68,59,6.73,500,"1,651",0,0,0,31.75,3.75
+VERA,VERA THERAPEUTICS IN A,"instrument=VERA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.97%,28.35,28.49,16,29.19,100,<empty>,0,0,0,56.05,23.05
+VERI,VERITONE INC,"instrument=VERI
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.40%,.5694,.5693,"2,080",.5694,"1,073","1,156",0,0,0,7.7700,.5140
+VFC,V F CORP,"instrument=VFC
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.70%,17.26,16.94,52,17.21,61,17,0,0,0,22.2699,12.455
+VG,VENTURE GLOBAL INC A,"instrument=VG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.16%,12.83,12.83,"1,555",12.91,"1,506","13,870",0,0,0,17.62,5.72
+VITL,VITAL FARMS INC,"instrument=VITL
+trend=[null, GREEN_OVER_RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.37%,8.19,8.10,100,8.27,191,<empty>,0,0,0,40.00,7.95
+VOYG,VOYAGER TECHNOLOGIES A,"instrument=VOYG
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.28%,25.03,25.10,60,25.60,50,"1,634",0,0,0,52.40,17.41
+VRT,VERTIV HLDGS CO Class A,"instrument=VRT
+trend=[null, RED, GREEN, RED, GREEN, GREEN, null, null, null, null]
+headPointer=5
+separatorPointer=5
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.02%,203.97,203.96,54,204.50,14,"18,469",0,0,0,379.935,147.82
+VRTX,VERTEX PHARMACEUTICA,"instrument=VRTX
+trend=[null, GREEN, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.40%,503.94,502.45,6,503.95,28,85,0,0,0,560.25,403.16
+VSAT,VIASAT INC,"instrument=VSAT
+trend=[null, RED, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.15%,60.20,59.64,47,60.14,46,34,0,0,0,93.0299,29.13
+VST,VISTRA CORP,"instrument=VST
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.20%,149.40,149.33,60,149.48,8,"7,118",0,0,0,203.66,132.66
+VSXY,VICTORIAS SECRET & C,"instrument=VSXY
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-1.08%,89.01,90.00,1,90.56,144,<empty>,0,0,0,102.46,30.6501
+VXX,IPATH ETN LKD TO S&P Exchange Traded Note,"instrument=VXX
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.56%,17.89,17.88,272,17.97,"2,800","39,039",0,0,0,40.52,16.54
+VZ,VERIZON COMMUNICATIO,"instrument=VZ
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.41%,44.33,44.28,112,44.38,811,"2,548",0,0,0,51.68,38.39
+WDC,WESTERN DIGITAL CORP,"instrument=WDC
+trend=[GREEN, RED, GREEN, RED, GREEN, GREEN, RED, RED, GREEN, RED]
+headPointer=4
+separatorPointer=-1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.65%,346.40,346.67,40,347.00,107,"27,802",0,0,0,799.87,117.23
+WM,WASTE MGMT INC DEL,"instrument=WM
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.66%,227.90,226.80,122,227.74,122,172,0,0,0,248.13,194.11
+WOLF,Wolfspeed Inc,"instrument=WOLF
+trend=[null, RED, GREEN, null, null, null, null, null, null, null]
+headPointer=2
+separatorPointer=2
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.12%,23.87,23.76,69,23.97,50,"2,753",0,0,0,80.82,13.485
+WVE,WAVE LIFE SCIENCES I,"instrument=WVE
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",+0.32%,3.18,3.13,139,3.20,500,136,0,0,0,21.73,3.0399
+XNDU,XANADU QUANTUM TECHN Class B,"instrument=XNDU
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-0.71%,2.78,2.78,"1,291",2.81,129,"46,264",0,0,0,42.44,2.76
+XOM,EXXONMOBIL HLDGS COR,"instrument=XOM
+trend=[null, GREEN, RED, GREEN, RED, null, null, null, null, null]
+headPointer=4
+separatorPointer=4
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+0.58%,179.32,179.03,8,179.58,77,"3,302",0,0,0,179.30,111.99
+XPEV,XPENG INC ADR ADR,"instrument=XPEV
+trend=[null, RED, null, null, null, null, null, null, null, null]
+headPointer=1
+separatorPointer=1
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",+3.69%,9.55,9.54,"12,450",9.57,"1,204","139,352",0,0,0,28.235,9.18
+XYZ,BLOCK INC A Class A,"instrument=XYZ
+trend=[null, RED, BRIGHT_GREEN, GREEN, RED, GREEN, RED, BRIGHT_GREEN, RED, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",0.00%,77.50,77.46,4,77.63,16,"2,414",0,0,0,86.92,48.21
+YINN,Direxion Daily FTSE China Bull 3X ETF,"instrument=YINN
+trend=[null, RED, GREEN, GREEN, RED, GREEN, GREEN, RED, GREEN, null]
+headPointer=8
+separatorPointer=8
+currentSessionEndTime=Tue Oct 20 16:00:00 EDT 2026
+",-1.10%,23.37,23.51,500,23.62,"4,400","50,045",0,0,0,53.23,20.69
+ZENA,ZENATECH INC,"instrument=ZENA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",-0.96%,1.03,1.02,"3,900",1.09,"5,100",214,0,0,0,5.465,.9538
+ZETA,ZETA GLOBAL HLDGS CO A,"instrument=ZETA
+trend=[null, null, null, null, null, null, null, null, null, null]
+headPointer=0
+separatorPointer=-1
+currentSessionEndTime=Wed Dec 31 19:00:00 EST 1969
+",0.00%,32.50,32.47,157,32.68,248,"3,445",0,0,0,35.75,14.365
