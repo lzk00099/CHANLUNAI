@@ -481,13 +481,17 @@ def plot_chart(data: pd.DataFrame, minor: list[Pivot], major: list[Pivot], segme
     hist = cd["hist"]
     hist_colors = np.where((hist >= 0) & (hist >= hist.shift(1)), "#00d658", np.where(hist >= 0, "#007f42", np.where(hist < hist.shift(1), "#ff405a", "#ff9d00")))
     fig.add_trace(go.Bar(x=cd.index, y=hist, name="MACD 柱", marker_color=hist_colors), row=3, col=1)
-    fig.add_trace(go.Scatter(x=cd.index, y=cd.diff, name="DIFF", line={"color": "#00dcff", "width": 1.8}), row=3, col=1)
-    fig.add_trace(go.Scatter(x=cd.index, y=cd.dea, name="DEA", line={"color": "#ffd200", "width": 1.8}), row=3, col=1)
+    # ``DataFrame.diff`` is a Pandas method, so column names must use [] here.
+    # Attribute access would pass that method itself to Plotly instead of data.
+    diff_line = cd["diff"]
+    dea_line = cd["dea"]
+    fig.add_trace(go.Scatter(x=cd.index, y=diff_line, name="DIFF", line={"color": "#00dcff", "width": 1.8}), row=3, col=1)
+    fig.add_trace(go.Scatter(x=cd.index, y=dea_line, name="DEA", line={"color": "#ffd200", "width": 1.8}), row=3, col=1)
     for column, label, color, marker, position in (("bottom", "BUY", "#00ff80", "triangle-up", "bottom center"), ("top", "SELL", "#ff405a", "triangle-down", "top center")):
         point = cd[column]
         if point.any():
             multiplier = .81 if column == "bottom" else 1.21
-            fig.add_trace(go.Scatter(x=cd.index[point], y=(cd.diff[point] * multiplier), mode="markers+text", text=[label] * int(point.sum()), textposition=position, name=f"CD+RSI {label}", marker={"color": color, "size": 15, "symbol": marker, "line": {"color": "white", "width": 1}}), row=3, col=1)
+            fig.add_trace(go.Scatter(x=cd.index[point], y=(diff_line[point] * multiplier), mode="markers+text", text=[label] * int(point.sum()), textposition=position, name=f"CD+RSI {label}", marker={"color": color, "size": 15, "symbol": marker, "line": {"color": "white", "width": 1}}), row=3, col=1)
     fig.add_hline(y=0, line={"color": "#8c8c8c", "width": 1}, row=3, col=1)
     fig.update_yaxes(title_text="CD+RSI", row=3, col=1)
     fig.update_layout(template="plotly_dark", height=1120, xaxis_rangeslider_visible=False,
